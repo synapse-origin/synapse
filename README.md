@@ -81,7 +81,7 @@ SYNAPSE V0.1 définit :
 ## 🧪 Statut Actuel
 
 **Version** : 0.1 (Alpha)  
-**Date** : Novembre 2024  
+**Date** : Novembre 2025  
 **Organisations pilotes** : 0 (on recrute !)  
 
 ### Roadmap
@@ -101,7 +101,7 @@ SYNAPSE V0.1 définit :
 ### Rejoignez le Mouvement
 
 - 💬 **Discussions** : [GitHub Discussions](https://github.com/synapse-origin/synapse/discussions)
-- 📧 **Contact** : synapse-origin@proton.me
+- 📧 **Contact** : synapse-origin@proton.me (à créer)
 
 ### Contributeurs
 
