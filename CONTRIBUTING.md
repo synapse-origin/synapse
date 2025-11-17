@@ -52,7 +52,7 @@ Il existe de nombreuses façons de contribuer à SYNAPSE, quel que soit votre pr
 - Financer des études académiques
 - Soutenir des événements communautaires
 
-👉 Contactez-nous : synapse-origin@proton.me
+👉 Contactez-nous : synapse-origin@proton.me (à créer)
 
 ---
 
@@ -147,17 +147,17 @@ En contribuant à SYNAPSE, vous acceptez de respecter notre [Code de Conduite](C
 
 Voici où nous avons le plus besoin d'aide actuellement :
 
-### Court terme (Q4 2024)
+### Court terme (Q4 2025)
 - [ ] Prototype du Memory Agent (Python/TypeScript)
 - [ ] Première étude de cas (organisation pilote)
 - [ ] Traductions du manifeste (EN, ES, DE)
 
-### Moyen terme (2025)
+### Moyen terme (2026)
 - [ ] Pattern Agent fonctionnel
 - [ ] Dashboard de monitoring
 - [ ] 5+ études de cas documentées
 
-### Long terme (2025+)
+### Long terme (2026+)
 - [ ] Suite complète d'agents
 - [ ] Certification SYNAPSE
 - [ ] Communauté de 1000+ contributeurs
@@ -167,7 +167,7 @@ Voici où nous avons le plus besoin d'aide actuellement :
 ## 📧 Contact
 
 **Questions générales** : [GitHub Discussions](https://github.com/synapse-origin/synapse/discussions)  
-**Partenariats** : synapse-origin@proton.me  
+**Partenariats** : synapse-origin@proton.me (à créer)
 **Sécurité** : security@synapse-origin.org (à créer)
 
 ---
