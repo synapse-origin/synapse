@@ -80,7 +80,7 @@ Trade-off : performance des LLMs commerciaux > open source (pour l'instant).
 - Communication (Slack, Teams)
 - Project Management (API générique)
 
-**Roadmap Q1 2025 :**
+**Roadmap Q1 2026 :**
 - Jira, Linear, Asana
 - Notion, Confluence
 - Datadog, Grafana
