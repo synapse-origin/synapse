@@ -1,4 +1,4 @@
-##MANIFESTE DE L'AGILITÉ COGNITIVE
+##**MANIFESTE DE L'AGILITÉ COGNITIVE**
 #Pour une organisation augmentée, humaine et artificielle
 
 Nous affirmons que les organisations du XXIᵉ siècle
