@@ -533,7 +533,7 @@ mypy src/
 ## 📄 Licence
 
 Code source sous **MIT License**.  
-Documentation sous **CC BY-SA 4.0**.
+Documentation sous **MIT**.
 
 Voir [LICENSE](../LICENSE.md) pour détails.
 
