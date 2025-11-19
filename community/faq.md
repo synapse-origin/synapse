@@ -304,7 +304,7 @@ Voir [research/](../research/) pour programme de recherche.
 
 ### Puis-je créer une entreprise autour de SYNAPSE ?
 
-**Oui !** SYNAPSE est sous licence CC BY-SA 4.0 :
+**Oui !** SYNAPSE est sous licence MIT :
 
 **Ce que vous pouvez faire :**
 - Proposer des services (conseil, formation, implémentation)
