@@ -143,32 +143,27 @@ SYNAPSE est sous **MIT License** - totalement libre et gratuit.
 
 ## 💰 Modèle Économique
 
-### Open Source Forever
+SYNAPSE est **100% open source** (MIT License).
 
-**SYNAPSE restera toujours 100% open source** (MIT License).
+Vous pouvez:
+✅ Utiliser SYNAPSE gratuitement à vie
+✅ Self-host tous les agents IA
+✅ Modifier et distribuer le code
+✅ Créer des services basés sur SYNAPSE
 
-Vous pouvez :
-- Self-host tous les agents IA
-- Modifier le code
-- Utiliser en production
-- Créer des services basés sur SYNAPSE
-
-**Gratuitement. Pour toujours.**
-
-### SYNAPSE Cloud (À venir)
+### SYNAPSE Cloud (Optionnel)
 
 Vous préférez ne pas gérer l'infrastructure ?
 
-**SYNAPSE Cloud** hébergera les agents IA pour vous :
-- ✨ Zéro setup
-- 📈 Scaling automatique
-- 🛟 Support prioritaire
-- 🔒 SLA garanti
+**SYNAPSE Cloud** héberge les agents IA pour vous:
+- Zéro setup
+- Scaling automatique  
+- Support prioritaire
 - À partir de $99/mois
 
-→ [Liste d'attente](https://forms.gle/...) *(coming Q2 2025)*
+→ [Voir les plans](https://cloud.synapse.dev)
 
-**Note** : Le cloud est une **option de confort**, pas une obligation. SYNAPSE restera toujours self-hostable gratuitement.
+**Note**: SYNAPSE restera toujours open source. Le cloud est juste une option de confort.
 
 ---
 
