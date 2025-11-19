@@ -2,8 +2,7 @@
 
 > **L'organisation du XXIᵉ siècle repose sur l'intelligence collective hybride**
 
-[![GitHub stars](https://img.shields.io/github/stars/synapse-origin/synapse?style=social)](https://github.com/synapse-origin/synapse)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE.md)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Status: Alpha](https://img.shields.io/badge/status-alpha-orange.svg)]()
 
@@ -82,7 +81,7 @@ SYNAPSE V0.1 définit :
 ## 🧪 Statut Actuel
 
 **Version** : 0.1 (Alpha)  
-**Date** : Novembre 2025  
+**Date** : Novembre 2024  
 **Organisations pilotes** : 0 (on recrute !)  
 
 ### Roadmap
@@ -102,7 +101,7 @@ SYNAPSE V0.1 définit :
 ### Rejoignez le Mouvement
 
 - 💬 **Discussions** : [GitHub Discussions](https://github.com/synapse-origin/synapse/discussions)
-- 📧 **Contact** : synapse-origin@proton.me (à créer)
+- 📧 **Contact** : synapse-origin@proton.me
 
 ### Contributeurs
 
@@ -124,13 +123,52 @@ Merci aux pionniers qui construisent SYNAPSE.
 
 ## ⚖️ Licence
 
-Ce projet est sous licence **Creative Commons BY-SA 4.0**.  
-Vous êtes libre de partager et adapter, à condition de :
-- Créditer SYNAPSE
-- Partager sous la même licence
-- Indiquer les modifications
+SYNAPSE est sous **MIT License** - totalement libre et gratuit.
+
+**Vous pouvez :**
+- ✅ Utiliser commercialement
+- ✅ Modifier et redistribuer
+- ✅ Usage privé
+- ✅ Créer des œuvres dérivées
+- ✅ Self-host tous les agents IA gratuitement, à vie
+
+**Nous demandons juste** (mais ce n'est pas obligatoire) :
+- 🙏 Crédit à SYNAPSE si vous l'utilisez
+- ❤️ Contribuer vos améliorations à la communauté
+- 🌟 Star le repository si vous trouvez ça utile
 
 👉 **[Lire la licence complète](LICENSE.md)**
+
+---
+
+## 💰 Modèle Économique
+
+### Open Source Forever
+
+**SYNAPSE restera toujours 100% open source** (MIT License).
+
+Vous pouvez :
+- Self-host tous les agents IA
+- Modifier le code
+- Utiliser en production
+- Créer des services basés sur SYNAPSE
+
+**Gratuitement. Pour toujours.**
+
+### SYNAPSE Cloud (À venir)
+
+Vous préférez ne pas gérer l'infrastructure ?
+
+**SYNAPSE Cloud** hébergera les agents IA pour vous :
+- ✨ Zéro setup
+- 📈 Scaling automatique
+- 🛟 Support prioritaire
+- 🔒 SLA garanti
+- À partir de $99/mois
+
+→ [Liste d'attente](https://forms.gle/...) *(coming Q2 2025)*
+
+**Note** : Le cloud est une **option de confort**, pas une obligation. SYNAPSE restera toujours self-hostable gratuitement.
 
 ---
 
