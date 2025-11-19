@@ -334,7 +334,7 @@ Vous avez créé un template utile ? Partagez-le avec la communauté :
 
 ## 📄 Licence
 
-Ces templates sont sous licence **CC BY-SA 4.0**.
+Ces templates sont sous licence **MIT**.
 
 Vous pouvez :
 - Les utiliser librement
