@@ -279,7 +279,7 @@ Les premières organisations à adopter SYNAPSE :
 
 SYNAPSE est et restera **100% open source** :
 - Code : MIT License
-- Documentation : CC BY-SA 4.0
+- Documentation : MIT
 - Pas de version "premium" fermée
 - Pas de features cachées derrière paywall
 
