@@ -64,4 +64,4 @@ Si vous partagez cette vision, si vous êtes prêt à expérimenter de nouvelles
 
 **Version** : 1.0  
 **Date** : Novembre 2025
-**Licence** : CC BY-SA 4.0
+**Licence** : MIT
