@@ -1,10 +1,10 @@
-# 🔄 Les 3 Boucles SYNAPSE
+# 🔄 Les 3 boucles SYNAPSE
 
 > **Source de vérité** pour tout ce qui concerne les boucles (rituels) dans SYNAPSE.
 
 ---
 
-## Vue d'Ensemble
+## Vue d'ensemble
 
 SYNAPSE remplace les **rituels agiles classiques** (daily standup, sprint planning, retrospective) par **3 boucles de feedback** optimisées pour une organisation hybride humains-IA.
 
@@ -18,12 +18,12 @@ SYNAPSE remplace les **rituels agiles classiques** (daily standup, sprint planni
 
 ---
 
-## 🎯 Intent Sync (Synchronisation d'Intention)
+## 🎯 Intent sync (Synchronisation d'intention)
 
 ### Objectif
 Vérifier que l'organisation **reste alignée** sur l'intention stratégique. Détecter et corriger les dérives avant qu'elles ne deviennent problématiques.
 
-### Fréquence & Timing
+### Fréquence & timing
 - **Standard** : Hebdomadaire (ex: tous les lundis 10h)
 - **Ajustable** : Bi-hebdomadaire si organisation stable
 - **Extraordinaire** : Sur demande si changement majeur
@@ -38,7 +38,7 @@ Vérifier que l'organisation **reste alignée** sur l'intention stratégique. D�
 - Pattern Agent signale dérive systématique
 - Intent Architect convoque session extraordinaire
 
-**Sur Événement :**
+**Sur événement :**
 - Changement stratégique de l'organisation
 - Pivot produit
 - Crise externe (marché, réglementation)
@@ -57,7 +57,7 @@ Vérifier que l'organisation **reste alignée** sur l'intention stratégique. D�
 
 ### Déroulement (45 min)
 
-**1. Rappel de l'Intention (5 min)**
+**1. Rappel de l'intention (5 min)**
 ```
 Intent Architect présente :
 - Intent Statement actuel
@@ -65,9 +65,9 @@ Intent Architect présente :
 - Contraintes non-négociables
 ```
 
-**2. Revue des Décisions Récentes (10 min)**
+**2. Revue des décisions récentes (10 min)**
 ```
-Memory Agent présente :
+Memory agent présente :
 - 10-15 décisions majeures de la semaine
 - Leur alignement avec l'intention (score)
 - Contradictions détectées
@@ -78,7 +78,7 @@ Exemple:
  ⚠️ Contradiction mineure avec Contrainte #1"
 ```
 
-**3. Détection de Dérives (10 min)**
+**3. Détection de dérives (10 min)**
 ```
 Pattern Agent présente :
 - Patterns de dérive détectés
@@ -91,7 +91,7 @@ Exemple:
  vs notre intention 'Vision long terme'"
 ```
 
-**4. Discussion & Décisions (15 min)**
+**4. Discussion & décisions (15 min)**
 ```
 Tous les rôles débattent :
 - L'intention est-elle toujours valide ?
@@ -105,7 +105,7 @@ Décisions possibles :
 → Actions correctives (réaligner décisions)
 ```
 
-**5. Actions & Suivi (5 min)**
+**5. Actions & suivi (5 min)**
 ```
 Intent Architect formalise :
 - Décisions prises
@@ -127,7 +127,7 @@ Intent Architect formalise :
 - Changements majeurs annoncés publiquement
 - Mise à jour des dashboards
 
-### Métriques de Succès
+### Métriques de succès
 
 | Métrique | Cible | Mesure |
 |----------|-------|--------|
@@ -136,9 +136,9 @@ Intent Architect formalise :
 | Temps de convergence | < 1 semaine | Alignement complet mesuré |
 | Participation active | > 80% présents | Attendance + engagement |
 
-### Exemples Concrets
+### Exemples concrets
 
-**Session Normale (Pas de Dérive)**
+**Session normale (Pas de dérive)**
 ```
 Memory Agent: "15 décisions cette semaine, alignement moyen 92%"
 Pattern Agent: "Aucune dérive systématique détectée"
@@ -146,7 +146,7 @@ Intent Architect: "OK, on continue. Prochaine revue lundi prochain."
 Durée: 30 min
 ```
 
-**Session avec Dérive Détectée**
+**Session avec dérive détectée**
 ```
 Pattern Agent: "⚠️ 7/10 décisions concernent feature X, 
                 mais notre intention prioritaire = feature Y"
@@ -170,29 +170,29 @@ Durée: 50 min
 
 ---
 
-## 🔍 Pattern Review (Revue des Patterns)
+## 🔍 Pattern Review (Revue des patterns)
 
 ### Objectif
 Examiner les **patterns récurrents** détectés par Pattern Agent et décider des **actions correctives** ou **expérimentations** pour les traiter.
 
-### Fréquence & Timing
+### Fréquence & timing
 
-**Continue (Alertes Temps Réel) :**
+**Continue (Alertes temps réel) :**
 - Pattern Agent envoie alertes si pattern significatif détecté
 - Traitement immédiat si critique
 
-**Hebdomadaire (Revue Systématique) :**
+**Hebdomadaire (Revue systématique) :**
 - Tous les vendredis 14h (exemple)
 - Revue de tous les patterns de la semaine
 
 ### Déclencheurs
 
-**Alertes Automatiques :**
+**Alertes automatiques :**
 - Seuil d'occurrence franchi (ex: blocage répété 3 fois)
 - Dégradation de métrique (ex: vélocité -20%)
 - Pattern positif intéressant (bonne pratique émergente)
 
-**Revue Systématique :**
+**Revue systématique :**
 - Date/heure prévue
 - Même si aucun pattern critique (prévention)
 
@@ -202,14 +202,14 @@ Examiner les **patterns récurrents** détectés par Pattern Agent et décider d
 - System Orchestrator (anime)
 - Personnes concernées par le pattern
 
-**Selon Contexte :**
+**Selon contexte :**
 - Ethical Guardian (si implications éthiques)
 - Intent Architect (si impact stratégique)
 - Sovereign Maker(s) (si solution technique nécessaire)
 
 ### Déroulement (30 min)
 
-**1. Présentation du Pattern (5 min)**
+**1. Présentation du pattern (5 min)**
 ```
 Pattern Agent présente :
 - Type de pattern (blocage, inefficacité, opportunité)
@@ -225,7 +225,7 @@ Exemple:
  - Coût estimé : 24 jours perdus (€24k)"
 ```
 
-**2. Analyse des Causes (10 min)**
+**2. Analyse des causes (10 min)**
 ```
 Discussion collective :
 - Pourquoi ce pattern existe ?
@@ -238,7 +238,7 @@ Techniques :
 - Revue de décisions passées (Memory Agent)
 ```
 
-**3. Décision sur Action (10 min)**
+**3. Décision sur action (10 min)**
 ```
 Options possibles :
 
@@ -262,7 +262,7 @@ D) ESCALADER
 - Nécessite Intent Sync ou Decision Moment
 ```
 
-**4. Plan d'Action (5 min)**
+**4. Plan d'action (5 min)**
 ```
 Si décision B ou C :
 - Qui fait quoi ?
@@ -285,7 +285,7 @@ Si décision B ou C :
 - Mise à jour des règles système (si changement)
 - Dashboard patterns mis à jour
 
-### Métriques de Succès
+### Métriques de succès
 
 | Métrique | Cible | Mesure |
 |----------|-------|--------|
@@ -294,9 +294,9 @@ Si décision B ou C :
 | Taux de faux positifs | < 20% | Patterns ignorés / Total |
 | Délai traitement patterns critiques | < 48h | Timestamp alerte → action |
 
-### Exemples Concrets
+### Exemples concrets
 
-**Pattern Négatif : Blocage Récurrent**
+**Pattern négatif : Blocage récurrent**
 ```
 Pattern: "Toujours bloqué sur validation légale"
 
@@ -315,7 +315,7 @@ Résultat (1 mois après) :
 - Documentation complète : 40% → 95%
 ```
 
-**Pattern Positif : Bonne Pratique Émergente**
+**Pattern positif : Bonne pratique émergente**
 ```
 Pattern: "Pair programming sur bugs critiques = -40% temps résolution"
 
@@ -344,12 +344,12 @@ Résultat :
 
 ---
 
-## ⚡ Decision Moment (Moment de Décision)
+## ⚡ Decision Moment (Moment de décision)
 
 ### Objectif
 Prendre une **décision importante** de façon éclairée en s'appuyant sur les **simulations** du Simulation Agent et la **mémoire** organisationnelle.
 
-### Fréquence & Timing
+### Fréquence & timing
 - **À la demande** : Pas de fréquence fixe
 - **Déclenchement** : Quand une décision complexe/majeure doit être prise
 
@@ -360,7 +360,7 @@ Prendre une **décision importante** de façon éclairée en s'appuyant sur les 
 - Sovereign Maker : Choix technique majeur
 - Ethical Guardian : Dilemme éthique
 
-**Par le Système :**
+**Par le système :**
 - Simulation Agent détecte opportunité
 - Pattern Agent identifie besoin de décision
 - Memory Agent rappelle décision similaire passée
@@ -371,14 +371,14 @@ Prendre une **décision importante** de façon éclairée en s'appuyant sur les 
 - Rôle concerné par la décision (décideur final)
 - Simulation Agent (présente scénarios)
 
-**Selon Contexte :**
+**Selon contexte :**
 - Autres rôles si décision transverse
 - Experts (techniques, métier, externes)
 - Stakeholders impactés
 
 ### Déroulement (Variable : 30 min - 2h)
 
-**1. Formulation de la Décision (10 min)**
+**1. Formulation de la décision (10 min)**
 ```
 Décideur formule clairement :
 - Quelle décision doit être prise ?
@@ -393,7 +393,7 @@ Exemple:
  Horizon : Décision pour les 12 prochains mois"
 ```
 
-**2. Contexte Historique (10 min)**
+**2. Contexte historique (10 min)**
 ```
 Memory Agent fournit :
 - Décisions similaires passées
@@ -409,7 +409,7 @@ Exemple:
  Contexte changé : x10 utilisateurs, nouvelles exigences"
 ```
 
-**3. Simulation de Scénarios (20-30 min)**
+**3. Simulation de scénarios (20-30 min)**
 ```
 Simulation Agent présente 3-5 scénarios :
 
@@ -431,7 +431,7 @@ RECOMMANDATION IA (confiance 70%) : SCÉNARIO B
 Raison : Meilleur équilibre risque/bénéfice
 ```
 
-**4. Discussion & Délibération (20-40 min)**
+**4. Discussion & délibération (20-40 min)**
 ```
 Débat collectif :
 - Quel scénario aligné avec intention ?
@@ -445,7 +445,7 @@ Techniques :
 - Simulation ajustée si hypothèses changent
 ```
 
-**5. Décision Formalisée (10 min)**
+**5. Décision formalisée (10 min)**
 ```
 Décideur tranche :
 - Scénario choisi : [X]
@@ -457,7 +457,7 @@ Décideur tranche :
 Enregistré dans Memory Agent
 ```
 
-**6. Suivi & Apprentissage (Post-décision)**
+**6. Suivi & apprentissage (Post-décision)**
 ```
 À M+1, M+3, M+6 :
 - Comparer prédictions vs réalité
@@ -476,7 +476,7 @@ Enregistré dans Memory Agent
 - Métriques de suivi
 - Log dans Memory Agent
 
-### Métriques de Succès
+### Métriques de succès
 
 | Métrique | Cible | Mesure |
 |----------|-------|--------|
@@ -485,9 +485,9 @@ Enregistré dans Memory Agent
 | Satisfaction des décideurs | > 7/10 | Questionnaire post-Decision Moment |
 | Taux d'implémentation | > 90% | Décisions effectivement appliquées |
 
-### Exemples Concrets
+### Exemples concrets
 
-**Décision Technique Simple**
+**Décision technique simple**
 ```
 Décision : "Quel framework frontend ?"
 
@@ -500,7 +500,7 @@ Décision : React (familiarité > gain 1 jour)
 Durée : 30 min
 ```
 
-**Décision Stratégique Complexe**
+**Décision stratégique complexe**
 ```
 Décision : "Pivoter vers B2B vs rester B2C ?"
 
@@ -525,7 +525,7 @@ Durée : 2h
 
 ---
 
-## 🔄 Comparaison avec Rituels Agile
+## 🔄 Comparaison avec rituels agile
 
 | Aspect | Agile Classique | SYNAPSE |
 |--------|----------------|---------|
@@ -543,7 +543,7 @@ Durée : 2h
 
 ---
 
-## 🎯 Quand Utiliser Quelle Boucle ?
+## 🎯 Quand utiliser quelle boucle ?
 
 ### Intent Sync
 **Utilisez pour :**
@@ -584,11 +584,11 @@ Durée : 2h
 
 **Framework SYNAPSE :**
 - [Vue d'ensemble complète](SYNAPSE-V0.1.md)
-- [Les 4 Rôles Humains](roles.md)
-- [Les 4 Agents IA](agents.md)
-- [Métriques Cognitives](metrics.md)
+- [Les 4 rôles humains](roles.md)
+- [Les 4 agents IA](agents.md)
+- [Métriques cognitives](metrics.md)
 
-**Guides Pratiques :**
+**Guides pratiques :**
 - [Guide d'implémentation](../docs/getting-started.md)
 - [Templates](../templates/)
 - [FAQ](../community/faq.md)
@@ -596,4 +596,4 @@ Durée : 2h
 ---
 
 *Source de vérité maintenue par la communauté SYNAPSE*  
-*Dernière mise à jour : Novembre 2024*
+*Dernière mise à jour : Novembre 2025*
