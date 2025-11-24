@@ -1,322 +1,142 @@
 # 🛠️ Outils SYNAPSE
 
-Code source et implémentations des agents IA de SYNAPSE.
+Code source des agents IA.
 
 ---
 
-## 🎯 Vue d'Ensemble
+## 🎯 Agents
 
-| Agent | Status | Langage | Maturité |
-|-------|--------|---------|----------|
-| **[Memory Agent](memory-agent/)** | 🟡 En développement | Python | Alpha |
-| **[Pattern Agent](pattern-agent/)** | 🔴 Planifié | Python | Q1 2025 |
-| **[Simulation Agent](simulation-agent/)** | 🔴 Planifié | Python | Q1 2025 |
-| **[Coordination Agent](coordination-agent/)** | 🔴 Planifié | Python | Q2 2025 |
+| Agent | Status | Langage |
+|-------|--------|---------|
+| [Memory](memory-agent/) | 🟡 Alpha | Python |
+| [Pattern](pattern-agent/) | 🔴 Q1 2025 | Python |
+| [Simulation](simulation-agent/) | 🔴 Q1 2025 | Python |
+| [Coordination](coordination-agent/) | 🔴 Q2 2025 | Python |
 
-**Légende :**
-- 🟢 Production-ready
-- 🟡 En développement
-- 🔴 Planifié
+👉 **[Spécifications détaillées](../framework/agents.md)**
 
 ---
 
-## 🚀 Démarrage Rapide
-
-### Prérequis
-
-```bash
-# Python 3.11+
-python --version
-
-# Docker & Docker Compose
-docker --version
-
-# Git
-git --version
-```
+## 🚀 Démarrage
 
 ### Installation
 
 ```bash
-# Cloner
 git clone https://github.com/synapse-origin/synapse.git
-cd synapse
+cd synapse/tools
 
-# Environnement virtuel
+# Env + dépendances
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-
-# Dépendances
-pip install -r tools/requirements.txt
+source venv/bin/activate
+pip install -r requirements.txt
 
 # Configuration
-cp tools/.env.example tools/.env
-# Éditer tools/.env avec vos clés API
+cp .env.example .env
+# Éditer .env (clés API)
 ```
 
-### Démarrer
+### Lancer
 
 ```bash
-# Infrastructure (bases de données)
-cd tools
+# Infrastructure
 docker-compose up -d
 
-# Memory Agent (seul disponible)
+# Memory Agent
 cd memory-agent
 python main.py
-
-# Dashboard (optionnel)
-cd ../dashboard
-npm install && npm run dev
 ```
 
 ---
 
-## 🧠 Memory Agent
+## 🏗️ Architecture
 
-**Fonction :** Mémoire organisationnelle
+```
+Dashboard (React :3000)
+    ↕️
+API Gateway (FastAPI :8000)
+    ↕️
+Memory :8001 | Pattern :8002 | Simul :8003 | Coord :8004
+    ↕️
+Neo4j | Pinecone | InfluxDB | PostgreSQL | Redis
+```
 
-**Capacités :**
-- Capture automatique décisions
-- Construction graphe de connaissances
-- Recherche sémantique
-- Détection contradictions
+---
 
-**Stack :**
-- Python 3.11+ (FastAPI)
+## 🔧 Stack
+
+**APIs :**
+- Anthropic Claude / OpenAI
+
+**Databases :**
 - Neo4j (graphe)
 - Pinecone (embeddings)
-- Claude API (LLM)
-
-**Status :** 🟡 Alpha
-
-👉 **[Documentation complète](memory-agent/README.md)**  
-👉 **[Spécifications](../framework/agents.md#memory-agent)**
-
----
-
-## 🔍 Pattern Agent
-
-**Fonction :** Détecteur de patterns
-
-**Capacités :**
-- Analyse time series
-- Clustering patterns
-- Alertes temps réel
-- Prédictions ML
-
-**Stack :**
-- Python 3.11+
 - InfluxDB (time series)
-- Scikit-learn (ML)
+- PostgreSQL (données)
+- Redis (cache)
 
-**Status :** 🔴 Q1 2025
+**Monitoring :**
+- Prometheus
+- Grafana
 
-👉 **[Spécifications](../framework/agents.md#pattern-agent)**
-
----
-
-## 🎲 Simulation Agent
-
-**Fonction :** Simulateur de scénarios
-
-**Capacités :**
-- Monte Carlo simulations
-- Bayesian networks
-- Comparaison multi-scénarios
-- Apprentissage continu
-
-**Stack :**
-- Python 3.11+
-- NumPy/SciPy
-- XGBoost
-
-**Status :** 🔴 Q1 2025
-
-👉 **[Spécifications](../framework/agents.md#simulation-agent)**
-
----
-
-## 🔗 Coordination Agent
-
-**Fonction :** Optimiseur de flux
-
-**Capacités :**
-- Détection blocages
-- Optimisation dépendances
-- Suggestions recomposition
-- Orchestration auto
-
-**Stack :**
-- Python 3.11+
-- Neo4j (graphe)
-- OR-Tools (optimisation)
-
-**Status :** 🔴 Q2 2025
-
-👉 **[Spécifications](../framework/agents.md#coordination-agent)**
-
----
-
-## 🏗️ Architecture Globale
-
-```
-┌─────────────────────────────────┐
-│  Dashboard (React)              │
-│  Port 3000                      │
-└─────────────────────────────────┘
-           ↕️ HTTP/WebSocket
-┌─────────────────────────────────┐
-│  API Gateway (FastAPI)          │
-│  Port 8000                      │
-└─────────────────────────────────┘
-           ↕️
-    ┌──────┴──────┬──────┬──────┐
-    ↓             ↓      ↓      ↓
-┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐
-│Memory  │  │Pattern │  │Simul.  │  │Coord.  │
-│:8001   │  │:8002   │  │:8003   │  │:8004   │
-└────────┘  └────────┘  └────────┘  └────────┘
-    ↓           ↓          ↓          ↓
-┌──────────────────────────────────────┐
-│  Data Layer                          │
-│  - Neo4j, Pinecone, InfluxDB,       │
-│  - PostgreSQL, Redis                │
-└──────────────────────────────────────┘
-```
-
----
-
-## 🔧 Configuration
-
-### Variables d'Environnement
-
-```bash
-# tools/.env
-
-# LLM APIs
-ANTHROPIC_API_KEY=sk-ant-...
-OPENAI_API_KEY=sk-...
-
-# Databases
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=password
-
-PINECONE_API_KEY=...
-POSTGRES_HOST=localhost
-REDIS_URL=redis://localhost:6379
-
-# Application
-LOG_LEVEL=INFO
-ENV=development
-```
+**Coût :** 200-500€/mois (pilote)
 
 ---
 
 ## 🧪 Tests
 
 ```bash
-# Tous les tests
 pytest tools/*/tests/ -v
-
-# Tests par agent
-cd tools/memory-agent
-pytest tests/ -v --cov=src
 ```
-
----
-
-## 📊 Monitoring
-
-**Métriques Prometheus :** `/metrics` sur chaque agent
-
-```
-# Exemples
-http_requests_total
-memory_decisions_captured_total
-memory_search_latency_seconds
-```
-
-**Dashboard Grafana :** `tools/monitoring/grafana-dashboard.json`
 
 ---
 
 ## 🐳 Docker
 
 ```bash
-# Toute l'infrastructure
-cd tools
 docker-compose up -d
-
-# Services : Neo4j, PostgreSQL, Redis, InfluxDB, 
-#            Prometheus, Grafana
 ```
+
+**Services :** Neo4j, PostgreSQL, Redis, InfluxDB, Prometheus, Grafana
 
 ---
 
 ## 🚀 Déploiement
 
-**Docker Compose (Dev/Test) :**
-```bash
-docker-compose -f docker-compose.prod.yml up -d
-```
-
-**Kubernetes (Production) :**
-```bash
-kubectl apply -f tools/k8s/
-```
-
 **Cloud :**
-- Fly.io : `.fly.toml`
-- Render : `render.yaml`
-- Railway : Auto-détection
+- Fly.io (`.fly.toml`)
+- Render (`render.yaml`)
+- Kubernetes (`k8s/`)
 
 ---
 
 ## 🤝 Contribution
 
-1. Fork le repository
-2. Créer branche feature
-3. Développer avec tests
+1. Fork
+2. Branch feature
+3. Tests
 4. Pull Request
 
-**Standards :**
-- PEP 8 (black)
-- Type hints
-- Coverage > 80%
+**Standards :** PEP 8, Type hints, Coverage >80%
 
-👉 **[Guide de contribution](../CONTRIBUTING.md)**
+👉 [Guide contribution](../CONTRIBUTING.md)
 
 ---
 
 ## 📚 Ressources
 
-**Documentation :**
-- [Architecture des Agents](../framework/agents.md)
-- [Guide d'Implémentation](../docs/getting-started.md)
-
-**Communauté :**
-- 💬 [Discussions](https://github.com/synapse-origin/synapse/discussions)
-- 🐛 [Issues](https://github.com/synapse-origin/synapse/issues)
+[Agents (specs)](../framework/agents.md)  
+[Guide implémentation](../docs/getting-started.md)  
+[Discussions](https://github.com/synapse-origin/synapse/discussions)
 
 ---
 
-## 🎯 Roadmap Technique
+## 🎯 Roadmap
 
-**Q4 2024 :**
-- [ ] Memory Agent V0.1 (alpha)
-- [ ] Dashboard V0.1
-
-**Q1 2025 :**
-- [ ] Memory Agent V1.0 (production)
-- [ ] Pattern Agent V0.1
-
-**Q2 2025 :**
-- [ ] Simulation + Coordination V0.1
-- [ ] API publique stable
+**Q4 2024 :** Memory V0.1  
+**Q1 2025 :** Memory V1.0, Pattern V0.1  
+**Q2 2025 :** Simulation, Coordination V0.1
 
 ---
 
-*Outils SYNAPSE - Construisons ensemble*  
+*Outils SYNAPSE*  
 *Dernière mise à jour : Novembre 2024*
