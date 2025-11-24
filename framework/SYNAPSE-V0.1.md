@@ -1,5 +1,5 @@
 # SYNAPSE V0.1
-## Framework de l'Agilité Cognitive
+## Framework de l'agilité cognitive
 
 > **Architecture de co-évolution intelligente pour organisations hybrides (Humains + IA)**
 
@@ -55,9 +55,9 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 | Rôle | Focus | Pouvoir Principal |
 |------|-------|-------------------|
-| **Intent Architect** | Stratégie & Sens | Veto si contraire à l'intention |
-| **Ethical Guardian** | Éthique & Intégrité | Veto si dérive éthique |
-| **System Orchestrator** | Configuration Système | Active/désactive agents |
+| **Intent Architect** | Stratégie & sens | Veto si contraire à l'intention |
+| **Ethical Guardian** | Éthique & intégrité | Veto si dérive éthique |
+| **System Orchestrator** | Configuration système | Active/désactive agents |
 | **Sovereign Maker** | Matérialisation | Décide faisabilité |
 
 👉 **[Descriptions complètes avec responsabilités, pouvoirs, exemples et antipatterns](roles.md)**
@@ -83,7 +83,7 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 | Boucle | Objectif | Fréquence | Participants |
 |--------|----------|-----------|--------------|
 | **Intent Sync** | Alignement stratégique | Hebdomadaire | Tous les rôles |
-| **Pattern Review** | Traiter récurrences | Continue + Hebdo | Concernés + Orchestrator |
+| **Pattern Review** | Traiter récurrences | Continue + hebdo | Concernés + Orchestrator |
 | **Decision Moment** | Décisions éclairées | À la demande | Décideurs + Agents |
 
 👉 **[Déroulements détaillés avec exemples concrets](loops.md)**
@@ -94,9 +94,9 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 **3 Catégories, 11 Métriques :**
 
-**Système (5)** : Temps Cohérence, Taux Adaptation, Mémoire Active, Clarté Intention, Latence Décision  
-**Humaines (3)** : Charge Cognitive, Autonomie Perçue, Confiance Système  
-**Valeur (3)** : Time to Production, Qualité Livrée, Coût Adaptation
+**Système (5)** : Temps cohérence, Taux adaptation, Mémoire active, Clarté intention, Latence décision  
+**Humaines (3)** : Charge cognitive, Autonomie perçue, Confiance système  
+**Valeur (3)** : Time to production, Qualité livrée, Coût adaptation
 
 👉 **[Définitions précises, cibles et comment mesurer](metrics.md)**
 
@@ -104,17 +104,17 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 ## ⚖️ GOUVERNANCE ÉTHIQUE
 
-**8 Principes Non-Négociables :**
-1. Transparence Algorithmique Obligatoire
-2. Droit de Veto Humain
-3. Protection des Données Personnelles
-4. Non-Discrimination
-5. Droit de Contestation
-6. Limitation de la Surveillance
-7. Consentement Éclairé
-8. Responsabilité Humaine
+**8 Principes non-négociables :**
+1. Transparence algorithmique obligatoire
+2. Droit de veto humain
+3. Protection des données personnelles
+4. Non-discrimination
+5. Droit de contestation
+6. Limitation de la surveillance
+7. Consentement éclairé
+8. Responsabilité humaine
 
-**Charte des Droits de l'Employé :** Comprendre, Contester, Être protégé, Déconnecter, Apprendre, Participer, Refuser, Auditer.
+**Charte des droits de l'employé :** Comprendre, contester, être protégé, déconnecter, apprendre, participer, refuser, auditer.
 
 👉 **[Charte éthique complète + comité d'éthique](ethics.md)**
 
@@ -126,9 +126,9 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 1. **Préparation** (S1-2) : Rôles + Intent Statement + Stack
 2. **Memory Agent** (S3-4) : Capture décisions
 3. **+ Pattern Agent** (S5-8) : Détection patterns
-4. **+ Simulation & Coordination** (S9-16) : Système complet
+4. **+ Simulation & coordination** (S9-16) : Système complet
 
-**Critères de Succès :** À 3 mois (concept), 6 mois (efficacité), 12 mois (pérennité)
+**Critères de succès :** À 3 mois (concept), 6 mois (efficacité), 12 mois (pérennité)
 
 👉 **[Guide d'implémentation détaillé pas à pas](../docs/getting-started.md)**
 
@@ -136,7 +136,7 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 ## 🛠️ IMPLÉMENTATION TECHNIQUE
 
-**Stack Minimale :** Docker, PostgreSQL, Redis, OpenAI/Anthropic, Pinecone, Git/Slack APIs, Prometheus
+**Stack minimale :** Docker, PostgreSQL, Redis, OpenAI/Anthropic, Pinecone, Git/Slack APIs, Prometheus
 
 **Coût estimé :** 200-500€/mois (phase pilote)
 
@@ -146,12 +146,12 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 ## ⚠️ RISQUES PRINCIPAUX
 
-**5 Risques Majeurs :**
-1. Rejet par équipes → Communication + Implication
-2. Dérives algorithmiques → Ethical Guardian + Audits
-3. Complexité technique → Démarrer minimal + Monitoring
+**5 Risques majeurs :**
+1. Rejet par équipes → Communication + implication
+2. Dérives algorithmiques → Ethical Guardian + audits
+3. Complexité technique → Démarrer minimal + monitoring
 4. Échec alignement → Intent Sync rigoureux
-5. Dépendance techno → Maintenir compétences + Plan dégradé
+5. Dépendance techno → Maintenir compétences + plan dégradé
 
 **Kill Switch :** Si dérive éthique, dégradation performance (>3 mois), rejet (>50%), ou coût insoutenable.
 
@@ -171,7 +171,7 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 SYNAPSE est **100% open source** (MIT License).
 
-**Contribuer :** Tester, Améliorer, Partager, Coder, Rechercher
+**Contribuer :** Tester, améliorer, partager, coder, rechercher
 
 👉 **[Guide de contribution](../CONTRIBUTING.md)**  
 👉 **[Communauté](../community/README.md)**
@@ -181,19 +181,19 @@ SYNAPSE est **100% open source** (MIT License).
 ## 📚 RESSOURCES COMPLÈTES
 
 **Framework :**
-- [Les 4 Rôles Humains](roles.md) - Descriptions complètes
-- [Les 4 Agents IA](agents.md) - Spécifications techniques
-- [Les 3 Boucles](loops.md) - Déroulements détaillés
-- [Les 11 Métriques](metrics.md) - Comment mesurer
-- [Charte Éthique](ethics.md) - Principes et droits
+- [Les 4 rôles humains](roles.md) - Descriptions complètes
+- [Les 4 agents IA](agents.md) - Spécifications techniques
+- [Les 3 boucles](loops.md) - Déroulements détaillés
+- [Les 11 métriques](metrics.md) - Comment mesurer
+- [Charte éthique](ethics.md) - Principes et droits
 
-**Guides Pratiques :**
+**Guides pratiques :**
 - [Guide d'implémentation](../docs/getting-started.md) - Pas à pas 16 semaines
 - [Templates](../templates/) - Intent Statement, Decision Record
 - [FAQ](../community/faq.md) - 30+ questions fréquentes
 - [Glossaire](../docs/glossary.md) - Définitions tous termes
 
-**Outils et Code :**
+**Outils et code :**
 - [Architecture technique](../tools/README.md) - Stack et déploiement
 - [Agents IA (code)](../tools/) - Implémentations
 - [Études de cas](../case-studies/) - Retours terrain
