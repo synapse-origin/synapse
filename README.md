@@ -2,7 +2,7 @@
 
 > **L'organisation du XXIᵉ siècle repose sur l'intelligence collective hybride**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Status: Alpha](https://img.shields.io/badge/status-alpha-orange.svg)]()
 
@@ -12,19 +12,9 @@
 
 SYNAPSE est un framework d'organisation où **humains et intelligences artificielles collaborent** dans une relation symbiotique pour créer des systèmes adaptatifs qui apprennent en continu.
 
-Nous ne cherchons pas à rendre l'ancien monde plus efficace. **Nous construisons le suivant.**
+**Le problème :** L'agilité (Scrum, Kanban, SAFe) montre ses limites face à la complexité actuelle.
 
-### Le Problème
-
-L'agilité (Scrum, Kanban, SAFe) a 24 ans. Elle a transformé le développement logiciel mais montre aujourd'hui ses limites :
-- 🔴 Rituels devenus des fins en soi
-- 🔴 Coordination humaine saturée au-delà de 50 personnes
-- 🔴 Cycles trop lents face à la complexité actuelle
-- 🔴 Amélioration incrémentale insuffisante face à la disruption
-
-### La Solution
-
-SYNAPSE propose une **rupture** : des organisations où l'intelligence est distribuée entre humains et agents IA, permettant :
+**La solution :** Une organisation hybride où l'intelligence est distribuée entre humains et agents IA, permettant :
 - ✅ Adaptation systémique immédiate (pas incrémentale)
 - ✅ Mémoire organisationnelle vivante
 - ✅ Décisions éclairées par simulation
@@ -32,112 +22,61 @@ SYNAPSE propose une **rupture** : des organisations où l'intelligence est distr
 
 ---
 
-## 📜 Le Manifeste
-
-👉 **[Lire le Manifeste de l'Agilité Cognitive](MANIFESTO.md)**
-
-**Valeurs clés :**
-- L'intelligence collective hybride > la collaboration exclusivement humaine
-- La modélisation continue > l'inspection périodique
-- L'adaptation systémique > l'amélioration incrémentale
-- La transparence algorithmique > les hiérarchies opaques
-
----
-
-## 🏗️ Le Framework
-
-SYNAPSE V0.1 définit :
-- **4 rôles humains** : Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker
-- **4 agents IA** : Memory, Pattern Detection, Simulation, Coordination
-- **3 boucles** : Intent Sync, Pattern Review, Decision Moment
-- **11 métriques cognitives** : pour mesurer la santé du système
-
-👉 **[Documentation complète du Framework](framework/SYNAPSE-V0.1.md)**
-
-👉 **[Guide de démarrage rapide](framework/quick-start.md)**
-
----
-
 ## 🚀 Démarrage Rapide
 
-### Pour Comprendre (5 min)
+**Pour comprendre (5 min) :**
 1. Lis le [Manifeste](MANIFESTO.md)
 2. Parcours le [Quick Start](framework/quick-start.md)
-3. Regarde les [Études de cas](case-studies/)
 
-### Pour Expérimenter (1 semaine)
-1. Clone ce repository
-2. Suis le [Guide d'implémentation](docs/getting-started.md)
-3. Teste avec ton équipe
-4. Partage tes résultats
+**Pour expérimenter (1 semaine) :**
+1. Suis le [Guide d'implémentation](docs/getting-started.md)
+2. Teste avec ton équipe
+3. Partage tes résultats
 
-### Pour Contribuer (en continu)
+**Pour contribuer :**
 1. Lis [CONTRIBUTING.md](CONTRIBUTING.md)
-2. Rejoins les [discussions](https://github.com/synapse-origin/synapse/discussions)
-3. Propose des améliorations via Pull Request
+2. Rejoins les [Discussions](https://github.com/synapse-origin/synapse/discussions)
+
+---
+
+## 📚 Documentation
+
+### Framework
+- **[SYNAPSE V0.1](framework/SYNAPSE-V0.1.md)** - Spécification complète
+- **[Quick Start](framework/quick-start.md)** - Vue d'ensemble 5 min
+- **[Les 4 Rôles](framework/roles.md)** - Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker
+- **[Les 4 Agents IA](framework/agents.md)** - Memory, Pattern, Simulation, Coordination
+- **[Les 3 Boucles](framework/loops.md)** - Intent Sync, Pattern Review, Decision Moment
+- **[Métriques](framework/metrics.md)** - 11 métriques cognitives
+- **[Charte Éthique](framework/ethics.md)** - Principes non-négociables
+
+### Guides
+- **[Getting Started](docs/getting-started.md)** - Guide d'implémentation pas à pas
+- **[FAQ](community/faq.md)** - Questions fréquentes
+- **[Glossaire](docs/glossary.md)** - Définitions
+- **[Roadmap](docs/roadmap.md)** - Feuille de route
+
+### Ressources
+- **[Templates](templates/)** - Prêts à l'emploi (Intent Statement, Decision Record, etc.)
+- **[Outils](tools/)** - Code des agents IA
+- **[Études de cas](case-studies/)** - Retours d'expérience
+- **[Recherche](research/)** - Expérimentations et publications
 
 ---
 
 ## 🧪 Statut Actuel
 
-**Version** : 0.1 (Alpha)  
-**Date** : Novembre 2024  
-**Organisations pilotes** : 0 (on recrute !)  
+**Version :** 0.1 (Alpha)  
+**Date :** Novembre 2024  
+**Organisations pilotes :** 0 (on recrute !)
 
-### Roadmap
-- [x] Manifeste publié
-- [x] Framework V0.1 documenté
+### Prochaines Étapes
 - [ ] Memory Agent (prototype)
 - [ ] Première organisation pilote
-- [ ] Étude de cas publiée
+- [ ] Première étude de cas
 - [ ] Framework V1.0
 
-👉 **[Voir la roadmap détaillée](docs/roadmap.md)**
-
----
-
-## 🤝 Communauté
-
-### Rejoignez le Mouvement
-
-- 💬 **Discussions** : [GitHub Discussions](https://github.com/synapse-origin/synapse/discussions)
-- 📧 **Contact** : synapse-origin@proton.me
-
-### Contributeurs
-
-Merci aux pionniers qui construisent SYNAPSE.
-
-👉 **[Devenir contributeur](CONTRIBUTING.md)**
-
----
-
-## 📚 Ressources
-
-- **Framework** : [Documentation complète](framework/)
-- **Templates** : [Prêts à l'emploi](templates/)
-- **Outils** : [Code des agents](tools/)
-- **Recherche** : [Expérimentations](research/)
-- **FAQ** : [Questions fréquentes](community/faq.md)
-
----
-
-## ⚖️ Licence
-
-SYNAPSE est sous **MIT License** - totalement libre et gratuit.
-
-**Vous pouvez :**
-- ✅ Utiliser commercialement
-- ✅ Modifier et redistribuer
-- ✅ Usage privé
-- ✅ Créer des œuvres dérivées
-- ✅ Self-host tous les agents IA gratuitement, à vie
-
-**Nous demandons juste** (mais ce n'est pas obligatoire) :
-- 🙏 Crédit à SYNAPSE si vous l'utilisez
-- ❤️ Contribuer vos améliorations à la communauté
-- 🌟 Star le repository si vous trouvez ça utile
-
-👉 **[Lire la licence complète](LICENSE.md)**
+👉 **[Voir la roadmap complète](docs/roadmap.md)**
 
 ---
 
@@ -145,32 +84,40 @@ SYNAPSE est sous **MIT License** - totalement libre et gratuit.
 
 SYNAPSE est **100% open source** (MIT License).
 
-Vous pouvez:
-✅ Utiliser SYNAPSE gratuitement à vie
-✅ Self-host tous les agents IA
-✅ Modifier et distribuer le code
-✅ Créer des services basés sur SYNAPSE
+✅ Utilisation commerciale gratuite  
+✅ Self-host tous les agents IA  
+✅ Modification et distribution libres  
+✅ Création de services basés sur SYNAPSE
 
 ### SYNAPSE Cloud (Optionnel)
+Vous préférez ne pas gérer l'infrastructure ?  
+→ Agents IA hébergés, à partir de $99/mois  
+→ [En savoir plus](docs/business-model.md)
 
-Vous préférez ne pas gérer l'infrastructure ?
+**SYNAPSE restera toujours open source.**
 
-**SYNAPSE Cloud** héberge les agents IA pour vous:
-- Zéro setup
-- Scaling automatique  
-- Support prioritaire
-- À partir de $99/mois
+---
 
-→ [Voir les plans](https://cloud.synapse.dev)
+## 🤝 Communauté
 
-**Note**: SYNAPSE restera toujours open source. Le cloud est juste une option de confort.
+- 💬 **[Discussions GitHub](https://github.com/synapse-origin/synapse/discussions)** - Posez vos questions
+- 📧 **Contact** - synapse-origin@proton.me
+- 🌟 **[Devenir contributeur](CONTRIBUTING.md)** - Code, docs, études de cas
+- 🏢 **[Devenir organisation pilote](case-studies/README.md)** - Testez SYNAPSE
+
+---
+
+## ⚖️ Licence
+
+MIT License - Totalement libre et gratuit.
+
+👉 **[Lire la licence complète](LICENSE.md)**
 
 ---
 
 ## 🌟 Pourquoi Contribuer ?
 
-Vous êtes développeur, coach agile, CTO, chercheur, ou simplement curieux ?  
-**SYNAPSE a besoin de vous.**
+SYNAPSE a besoin de vous :
 
 - 🔬 **Chercheurs** : Menez des expérimentations, publiez
 - 💻 **Développeurs** : Construisez les agents IA
