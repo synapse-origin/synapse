@@ -1,10 +1,10 @@
-# ⚖️ Charte Éthique SYNAPSE
+# ⚖️ Charte éthique SYNAPSE
 
 Cette charte définit les principes éthiques **non-négociables** de toute organisation utilisant SYNAPSE.
 
 ---
 
-## 🎯 Philosophie Générale
+## 🎯 Philosophie générale
 
 **SYNAPSE augmente les humains, ne les remplace pas.**
 
@@ -12,9 +12,9 @@ Les agents IA de SYNAPSE sont des **outils** au service des humains, pas des ma�
 
 ---
 
-## 📜 Principes Non-Négociables
+## 📜 Principes non-négociables
 
-### 1. Transparence Algorithmique Obligatoire
+### 1. Transparence algorithmique obligatoire
 
 **Principe** : Toute décision prise ou proposée par un agent IA doit être explicable.
 
@@ -36,7 +36,7 @@ Les agents IA de SYNAPSE sont des **outils** au service des humains, pas des ma�
 
 ---
 
-### 2. Droit de Veto Humain
+### 2. Droit de veto humain
 
 **Principe** : Aucune décision critique ne peut être prise sans validation humaine finale.
 
@@ -61,7 +61,7 @@ Les agents IA de SYNAPSE sont des **outils** au service des humains, pas des ma�
 
 ---
 
-### 3. Protection des Données Personnelles
+### 3. Protection des données personnelles
 
 **Principe** : Les données personnelles sont protégées par design, conformément au RGPD.
 
@@ -96,7 +96,7 @@ Les agents IA de SYNAPSE sont des **outils** au service des humains, pas des ma�
 
 ---
 
-### 4. Non-Discrimination
+### 4. Non-discrimination
 
 **Principe** : Les décisions IA ne doivent jamais discriminer sur des critères illégaux ou immoraux.
 
@@ -145,7 +145,7 @@ if abs(rate_A - rate_B) > 0.20:
 
 ---
 
-### 5. Droit de Contestation
+### 5. Droit de contestation
 
 **Principe** : Toute personne peut contester une décision IA qui l'affecte.
 
@@ -173,7 +173,7 @@ if abs(rate_A - rate_B) > 0.20:
 
 ---
 
-### 6. Limitation de la Surveillance
+### 6. Limitation de la surveillance
 
 **Principe** : SYNAPSE ne doit pas devenir un outil de surveillance des employés.
 
@@ -201,7 +201,7 @@ Si une fonctionnalité fait dire "Big Brother" à plus de 20% de l'équipe, elle
 
 ---
 
-### 7. Consentement Éclairé
+### 7. Consentement éclairé
 
 **Principe** : L'adoption de SYNAPSE doit être volontaire et informée.
 
@@ -223,7 +223,7 @@ Si une fonctionnalité fait dire "Big Brother" à plus de 20% de l'équipe, elle
 
 ---
 
-### 8. Responsabilité Humaine
+### 8. Responsabilité humaine
 
 **Principe** : Les humains restent responsables des décisions, pas l'IA.
 
@@ -239,7 +239,7 @@ Si une fonctionnalité fait dire "Big Brother" à plus de 20% de l'équipe, elle
 
 ---
 
-## 👤 Charte des Droits de l'Employé
+## 👤 Charte des droits de l'employé
 
 ### Dans une organisation SYNAPSE, chaque personne a le droit de :
 
@@ -285,9 +285,9 @@ Si une fonctionnalité fait dire "Big Brother" à plus de 20% de l'équipe, elle
 
 ---
 
-## 🏛️ Gouvernance Éthique
+## 🏛️ Gouvernance éthique
 
-### Comité d'Éthique (Recommandé)
+### Comité d'éthique (Recommandé)
 
 **Composition** :
 - Ethical Guardian (président)
@@ -310,7 +310,7 @@ Si une fonctionnalité fait dire "Big Brother" à plus de 20% de l'équipe, elle
 
 ---
 
-## 🚨 Signaux d'Alerte Éthique
+## 🚨 Signaux d'alerte éthique
 
 ### Quand s'inquiéter ?
 
@@ -331,7 +331,7 @@ Si une fonctionnalité fait dire "Big Brother" à plus de 20% de l'équipe, elle
 
 ---
 
-## 📋 Checklist de Conformité Éthique
+## 📋 Checklist de conformité éthique
 
 ### Avant le déploiement
 
@@ -362,7 +362,7 @@ Si une fonctionnalité fait dire "Big Brother" à plus de 20% de l'équipe, elle
 
 ---
 
-## 🌍 Engagement de la Communauté SYNAPSE
+## 🌍 Engagement de la communauté SYNAPSE
 
 ### Promesse
 
@@ -372,7 +372,7 @@ La communauté SYNAPSE s'engage à :
 - Dénoncer les dérives
 - Former à l'éthique de l'IA
 
-### Sanctions Communautaires
+### Sanctions communautaires
 
 **Si une organisation viole cette charte** :
 1. Avertissement public
@@ -390,9 +390,9 @@ La communauté SYNAPSE s'engage à :
 
 ---
 
-## 📚 Ressources Complémentaires
+## 📚 Ressources complémentaires
 
-### Formations Recommandées
+### Formations recommandées
 
 - **Ethics of AI** (cours en ligne)
 - **RGPD pour les organisations**
@@ -415,7 +415,7 @@ La communauté SYNAPSE s'engage à :
 
 ---
 
-## 🤝 Engagement Personnel
+## 🤝 Engagement personnel
 
 **En tant que membre d'une organisation SYNAPSE, je m'engage à :**
 
