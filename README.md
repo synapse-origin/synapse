@@ -8,121 +8,86 @@
 
 ---
 
-## 🎯 Qu'est-ce que SYNAPSE ?
+## 🎯 En 30 Secondes
 
-SYNAPSE est un framework d'organisation où **humains et intelligences artificielles collaborent** dans une relation symbiotique pour créer des systèmes adaptatifs qui apprennent en continu.
+SYNAPSE est un framework où **humains et IA collaborent** pour créer des organisations adaptatives.
 
-**Le problème :** L'agilité (Scrum, Kanban, SAFe) montre ses limites face à la complexité actuelle.
+**4 rôles humains** + **4 agents IA** + **3 boucles de feedback** = Organisation hybride qui apprend en continu.
 
-**La solution :** Une organisation hybride où l'intelligence est distribuée entre humains et agents IA, permettant :
-- ✅ Adaptation systémique immédiate (pas incrémentale)
-- ✅ Mémoire organisationnelle vivante
-- ✅ Décisions éclairées par simulation
-- ✅ Coordination automatique à grande échelle
+**Le problème :** L'agilité montre ses limites face à la complexité.  
+**La solution :** Intelligence distribuée entre humains et IA.
 
 ---
 
-## 🚀 Démarrage Rapide
+## 🚀 Démarrer
 
-**Pour comprendre (5 min) :**
-1. Lis le [Manifeste](MANIFESTO.md)
-2. Parcours le [Quick Start](framework/quick-start.md)
+**Comprendre (5 min) :**
+- [Manifeste](MANIFESTO.md) - Vision
+- [Quick Start](framework/quick-start.md) - Vue d'ensemble
 
-**Pour expérimenter (1 semaine) :**
-1. Suis le [Guide d'implémentation](docs/getting-started.md)
-2. Teste avec ton équipe
-3. Partage tes résultats
+**Implémenter (4 semaines) :**
+- [Guide complet](docs/getting-started.md) - Pas à pas
+- [Templates](templates/) - Prêts à l'emploi
 
-**Pour contribuer :**
-1. Lis [CONTRIBUTING.md](CONTRIBUTING.md)
-2. Rejoins les [Discussions](https://github.com/synapse-origin/synapse/discussions)
+**Contribuer :**
+- [Guide contribution](CONTRIBUTING.md)
+- [Discussions](https://github.com/synapse-origin/synapse/discussions)
 
 ---
 
 ## 📚 Documentation
 
-### Framework
-- **[SYNAPSE V0.1](framework/SYNAPSE-V0.1.md)** - Spécification complète
-- **[Quick Start](framework/quick-start.md)** - Vue d'ensemble 5 min
-- **[Les 4 Rôles](framework/roles.md)** - Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker
-- **[Les 4 Agents IA](framework/agents.md)** - Memory, Pattern, Simulation, Coordination
-- **[Les 3 Boucles](framework/loops.md)** - Intent Sync, Pattern Review, Decision Moment
-- **[Métriques](framework/metrics.md)** - 11 métriques cognitives
-- **[Charte Éthique](framework/ethics.md)** - Principes non-négociables
+**Framework :**
+- [SYNAPSE V0.1](framework/SYNAPSE-V0.1.md) - Référence complète
+- [4 Rôles](framework/roles.md) - Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker
+- [4 Agents](framework/agents.md) - Memory, Pattern, Simulation, Coordination
+- [3 Boucles](framework/loops.md) - Intent Sync, Pattern Review, Decision Moment
+- [11 Métriques](framework/metrics.md) - Mesurer la santé
+- [Éthique](framework/ethics.md) - Principes non-négociables
 
-### Guides
-- **[Getting Started](docs/getting-started.md)** - Guide d'implémentation pas à pas
-- **[FAQ](community/faq.md)** - Questions fréquentes
-- **[Glossaire](docs/glossary.md)** - Définitions
-- **[Roadmap](docs/roadmap.md)** - Feuille de route
+**Guides :**
+- [Implémentation](docs/getting-started.md) | [FAQ](community/faq.md) | [Glossaire](docs/glossary.md) | [Roadmap](docs/roadmap.md)
 
-### Ressources
-- **[Templates](templates/)** - Prêts à l'emploi (Intent Statement, Decision Record, etc.)
-- **[Outils](tools/)** - Code des agents IA
-- **[Études de cas](case-studies/)** - Retours d'expérience
-- **[Recherche](research/)** - Expérimentations et publications
+**Ressources :**
+- [Templates](templates/) | [Code Agents](tools/) | [Études de cas](case-studies/) | [Recherche](research/)
 
 ---
 
-## 🧪 Statut Actuel
+## 🧪 Statut : V0.1 Alpha
 
-**Version :** 0.1 (Alpha)  
-**Date :** Novembre 2024  
 **Organisations pilotes :** 0 (on recrute !)
 
-### Prochaines Étapes
-- [ ] Memory Agent (prototype)
-- [ ] Première organisation pilote
-- [ ] Première étude de cas
-- [ ] Framework V1.0
+**Prochaines étapes :**
+- Memory Agent (prototype)
+- Première organisation pilote
+- Framework V1.0
 
-👉 **[Voir la roadmap complète](docs/roadmap.md)**
+👉 [Roadmap complète](docs/roadmap.md)
 
 ---
 
-## 💰 Modèle Économique
+## 💰 100% Open Source
 
-SYNAPSE est **100% open source** (MIT License).
+**MIT License** - Gratuit, modifiable, utilisable commercialement.
 
-✅ Utilisation commerciale gratuite  
-✅ Self-host tous les agents IA  
-✅ Modification et distribution libres  
-✅ Création de services basés sur SYNAPSE
-
-### SYNAPSE Cloud (Optionnel)
-Vous préférez ne pas gérer l'infrastructure ?  
-→ Agents IA hébergés, à partir de $99/mois  
-→ [En savoir plus](docs/business-model.md)
-
-**SYNAPSE restera toujours open source.**
+**SYNAPSE Cloud** (optionnel) : Agents hébergés à partir de $99/mois → [Détails](docs/business-model.md)
 
 ---
 
 ## 🤝 Communauté
 
-- 💬 **[Discussions GitHub](https://github.com/synapse-origin/synapse/discussions)** - Posez vos questions
-- 📧 **Contact** - synapse-origin@proton.me
-- 🌟 **[Devenir contributeur](CONTRIBUTING.md)** - Code, docs, études de cas
-- 🏢 **[Devenir organisation pilote](case-studies/README.md)** - Testez SYNAPSE
-
----
-
-## ⚖️ Licence
-
-MIT License - Totalement libre et gratuit.
-
-👉 **[Lire la licence complète](LICENSE.md)**
+💬 [Discussions GitHub](https://github.com/synapse-origin/synapse/discussions)  
+📧 synapse-origin@proton.me  
+🌟 [Contribuer](CONTRIBUTING.md) | 🏢 [Devenir pilote](case-studies/README.md)
 
 ---
 
 ## 🌟 Pourquoi Contribuer ?
 
-SYNAPSE a besoin de vous :
-
-- 🔬 **Chercheurs** : Menez des expérimentations, publiez
-- 💻 **Développeurs** : Construisez les agents IA
-- 🏢 **Organisations** : Testez en pilote, partagez vos résultats
-- ✍️ **Penseurs** : Challengez, améliorez le framework
+🔬 **Chercheurs** - Menez expérimentations  
+💻 **Développeurs** - Construisez agents IA  
+🏢 **Organisations** - Testez en pilote  
+✍️ **Penseurs** - Challengez le framework
 
 **Ensemble, construisons l'organisation de demain.**
 
@@ -130,5 +95,5 @@ SYNAPSE a besoin de vous :
 
 <p align="center">
   <strong>SYNAPSE</strong> - Intelligence Collective Hybride<br>
-  <em>Nous ne cherchons pas à rendre l'ancien monde plus efficace. Nous construisons le suivant.</em>
+  <em>Nous ne rendons pas l'ancien monde plus efficace. Nous construisons le suivant.</em>
 </p>
