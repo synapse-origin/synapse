@@ -1,105 +1,87 @@
 # 🏗️ Framework SYNAPSE
 
-Documentation complète du framework SYNAPSE - Architecture de Co-évolution Intelligente.
+Navigation vers la documentation complète du framework.
 
 ---
 
-## 📚 Navigation
+## 🚀 Démarrage
 
-### 🚀 Démarrage
-
-**Première fois ici ?**
-1. [Quick Start](quick-start.md) - 5 minutes pour comprendre
-2. [SYNAPSE V0.1](SYNAPSE-V0.1.md) - Spécification complète (2h)
-
-### 📖 Composants Détaillés
-
-**Sources de Vérité :** (Informations détaillées)
-- **[Les 4 Rôles Humains](roles.md)** - Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker
-- **[Les 4 Agents IA](agents.md)** - Memory, Pattern, Simulation, Coordination
-- **[Les 3 Boucles](loops.md)** - Intent Sync, Pattern Review, Decision Moment
-- **[Les Métriques Cognitives](metrics.md)** - 11 métriques pour mesurer la santé du système
-- **[Charte Éthique](ethics.md)** - Principes non-négociables et droits des employés
+**Première fois ?**
+1. [Quick Start](quick-start.md) - 5 minutes
+2. [SYNAPSE V0.1](SYNAPSE-V0.1.md) - Référence complète
 
 ---
 
-## 🎯 Par Où Commencer ?
+## 📖 Sources de Vérité
 
-### Selon Votre Profil
+**Composants détaillés (tout y est) :**
 
-**🎓 Je découvre SYNAPSE**
-→ [Quick Start](quick-start.md) (5 min)
-→ [FAQ](../community/faq.md) (selon besoin)
+- **[Les 4 Rôles Humains](roles.md)**  
+  Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker  
+  *Responsabilités, pouvoirs, exemples, antipatterns*
 
-**💼 Je veux implémenter**
-→ [Guide d'implémentation](../docs/getting-started.md) (1 semaine)
-→ [Templates](../templates/) (prêts à l'emploi)
+- **[Les 4 Agents IA](agents.md)**  
+  Memory, Pattern, Simulation, Coordination  
+  *Fonctions, capacités, stack technique, exemples code*
 
-**🔬 Je veux comprendre en profondeur**
-→ [SYNAPSE V0.1](SYNAPSE-V0.1.md) (2h)
-→ Puis les composants détaillés (4h)
+- **[Les 3 Boucles](loops.md)**  
+  Intent Sync, Pattern Review, Decision Moment  
+  *Déroulements, participants, exemples, antipatterns*
 
-**💻 Je veux contribuer**
-→ [Architecture technique](agents.md)
-→ [Code des agents](../tools/)
+- **[Les 11 Métriques](metrics.md)**  
+  Système, Humaines, Valeur  
+  *Définitions, cibles, mesure, dashboard*
+
+- **[Charte Éthique](ethics.md)**  
+  8 principes, droits employés, gouvernance  
+  *Transparence, veto, protection, non-discrimination*
 
 ---
 
-## 📊 Vue d'Ensemble
+## 🎯 Par Profil
 
-### Architecture en 3 Couches
+**🎓 Je découvre**  
+→ [Quick Start](quick-start.md)
+
+**💼 J'implémente**  
+→ [Guide implémentation](../docs/getting-started.md)  
+→ [Templates](../templates/)
+
+**🔬 J'approfondis**  
+→ [SYNAPSE V0.1](SYNAPSE-V0.1.md)  
+→ Sources de vérité ci-dessus
+
+**💻 Je contribue**  
+→ [Architecture technique](agents.md)  
+→ [Code](../tools/)
+
+---
+
+## 📊 Architecture
 
 ```
-┌─────────────────────────────────────┐
-│  INTENTION (Humains)                │
-│  Définit le POURQUOI et l'éthique   │
-└─────────────────────────────────────┘
-              ↓
-┌─────────────────────────────────────┐
-│  COGNITION (IA + Humains)           │
-│  Modélise, simule, détecte, propose │
-└─────────────────────────────────────┘
-              ↓
-┌─────────────────────────────────────┐
-│  EXÉCUTION (Humains + IA)           │
-│  Matérialise et ajuste le réel      │
-└─────────────────────────────────────┘
+INTENTION (Humains)
+    ↓
+COGNITION (IA + Humains)
+    ↓
+EXÉCUTION (Humains + IA)
 ```
 
-### Composants Clés
-
-| Composant | Rôle | Détails |
-|-----------|------|---------|
-| **4 Rôles Humains** | Définissent, surveillent, configurent, matérialisent | [→ roles.md](roles.md) |
-| **4 Agents IA** | Mémorisent, détectent, simulent, coordonnent | [→ agents.md](agents.md) |
-| **3 Boucles** | Synchronisent intention, traitent patterns, décident | [→ loops.md](loops.md) |
-| **11 Métriques** | Mesurent santé système, humains, valeur | [→ metrics.md](metrics.md) |
+**Détails :** [SYNAPSE V0.1](SYNAPSE-V0.1.md#architecture)
 
 ---
 
-## 🆚 vs Agilité Classique
+## 🆚 vs Agilité
 
 | Aspect | Agile | SYNAPSE |
 |--------|-------|---------|
-| **Décisions** | Humains seuls | Humains + IA |
-| **Adaptation** | Cycles fixes | Continue |
-| **Mémoire** | Documentation | Graphe auto-généré |
-| **Coordination** | Rituels humains | Détection IA + intervention |
+| Décisions | Humains | Humains + IA |
+| Adaptation | Cycles fixes | Continue |
+| Mémoire | Documentation | Graphe auto |
+
+**Détails :** [Quick Start](quick-start.md#différences)
 
 ---
 
-## 📚 Ressources Complémentaires
-
-**Guides Pratiques :**
-- [Guide d'implémentation](../docs/getting-started.md)
-- [Templates](../templates/)
-- [FAQ](../community/faq.md)
-
-**Outils :**
-- [Code des agents](../tools/)
-- [Études de cas](../case-studies/)
-
----
-
-*Documentation maintenue par la communauté SYNAPSE*  
+*Navigation Framework SYNAPSE*  
 *Dernière mise à jour : Novembre 2024*
