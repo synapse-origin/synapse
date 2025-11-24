@@ -12,36 +12,36 @@ Navigation vers la documentation complète du framework.
 
 ---
 
-## 📖 Sources de Vérité
+## 📖 Sources de vérité
 
 **Composants détaillés (tout y est) :**
 
-- **[Les 4 Rôles Humains](roles.md)**  
+- **[Les 4 rôles humains](roles.md)**  
   Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker  
   *Responsabilités, pouvoirs, exemples, antipatterns*
 
-- **[Les 4 Agents IA](agents.md)**  
+- **[Les 4 agents IA](agents.md)**  
   Memory, Pattern, Simulation, Coordination  
   *Fonctions, capacités, stack technique, exemples code*
 
-- **[Les 3 Boucles](loops.md)**  
+- **[Les 3 boucles](loops.md)**  
   Intent Sync, Pattern Review, Decision Moment  
   *Déroulements, participants, exemples, antipatterns*
 
-- **[Les 11 Métriques](metrics.md)**  
+- **[Les 11 métriques](metrics.md)**  
   Système, Humaines, Valeur  
   *Définitions, cibles, mesure, dashboard*
 
-- **[Charte Éthique](ethics.md)**  
+- **[Charte éthique](ethics.md)**  
   8 principes, droits employés, gouvernance  
   *Transparence, veto, protection, non-discrimination*
 
 ---
 
-## 🎯 Par Profil
+## 🎯 Par profil
 
 **🎓 Je découvre**  
-→ [Quick Start](quick-start.md)
+→ [Quick start](quick-start.md)
 
 **💼 J'implémente**  
 → [Guide implémentation](../docs/getting-started.md)  
@@ -71,7 +71,7 @@ EXÉCUTION (Humains + IA)
 
 ---
 
-## 🆚 vs Agilité
+## Synapse vs Agilité
 
 | Aspect | Agile | SYNAPSE |
 |--------|-------|---------|
@@ -79,7 +79,7 @@ EXÉCUTION (Humains + IA)
 | Adaptation | Cycles fixes | Continue |
 | Mémoire | Documentation | Graphe auto |
 
-**Détails :** [Quick Start](quick-start.md#différences)
+**Détails :** [Quick start](quick-start.md#différences)
 
 ---
 
