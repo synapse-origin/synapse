@@ -1,10 +1,10 @@
-# 🤖 Les 4 Agents IA dans SYNAPSE
+# 🤖 Les 4 agents IA dans SYNAPSE
 
 Les agents IA de SYNAPSE ne remplacent pas les humains. Ils **augmentent** leur capacité à comprendre, décider et agir dans un système complexe.
 
 ---
 
-## Vue d'Ensemble
+## Vue d'ensemble
 
 | Agent | Fonction | Input Principal | Output Principal | Déclenchement |
 |-------|----------|-----------------|------------------|---------------|
@@ -15,7 +15,7 @@ Les agents IA de SYNAPSE ne remplacent pas les humains. Ils **augmentent** leur 
 
 ---
 
-## 🧠 Memory Agent (Agent Mémoire)
+## 🧠 Memory agent (Agent mémoire)
 
 ### Mission
 
@@ -23,7 +23,7 @@ Les agents IA de SYNAPSE ne remplacent pas les humains. Ils **augmentent** leur 
 
 ### Capacités
 
-#### 1. Capture Automatique
+#### 1. Capture automatique
 **Ce qu'il enregistre** :
 - Toutes les décisions formalisées (via interface ou template)
 - Commits et pull requests (Git)
@@ -36,7 +36,7 @@ Les agents IA de SYNAPSE ne remplacent pas les humains. Ils **augmentent** leur 
 - Parsing et extraction d'entités (LLM)
 - Embeddings sémantiques pour recherche
 
-#### 2. Structuration en Graphe
+#### 2. Structuration en graphe
 **Construit un graphe de connaissances** reliant :
 ```
 Décision A
@@ -62,7 +62,7 @@ Problème Y
   └─ Contexte : "Migration database"
 ```
 
-#### 3. Détection de Contradictions
+#### 3. Détection de contradictions
 **Identifie** :
 - Décisions qui s'annulent mutuellement
 - Changements de direction non documentés
@@ -83,7 +83,7 @@ Contexte : Aucun changement majeur détecté depuis août.
 Suggestion : Clarifier la raison du changement.
 ```
 
-#### 4. Restitution Contextuelle
+#### 4. Restitution contextuelle
 **Quand une situation similaire arrive** :
 ```
 💡 CONTEXTE PERTINENT
@@ -99,16 +99,16 @@ Historique :
 Suggestion : Revisiter les critères de la décision #089.
 ```
 
-### Architecture Technique
+### Architecture technique
 
 ```yaml
 Stack:
   LLM: 
     - GPT-4 ou Claude (extraction d'entités, résumés)
-  Vector Database:
+  Vector database:
     - Pinecone, Weaviate ou Qdrant
     - Purpose: Recherche sémantique rapide
-  Graph Database:
+  Graph database:
     - Neo4j
     - Purpose: Relations complexes, traversées
   Storage:
@@ -202,7 +202,7 @@ class MemoryAgent:
 
 ---
 
-## 🔍 Pattern Agent (Agent Détecteur)
+## 🔍 Pattern agent (Agent détecteur)
 
 ### Mission
 
@@ -251,7 +251,7 @@ Suggestions :
 3. Créer des guidelines pour reviews simples
 ```
 
-#### 2. Détection de Patterns Positifs
+#### 2. Détection de patterns positifs
 
 **Pratiques efficaces** :
 ```
@@ -267,7 +267,7 @@ Suggestion :
 Généraliser cette pratique pour tous les bugs critiques.
 ```
 
-#### 3. Prédiction de Problèmes
+#### 3. Prédiction de problèmes
 
 **Anticipation** :
 ```
@@ -285,11 +285,11 @@ Action suggérée :
 Buffer dans la planification OU simplification du scope.
 ```
 
-### Architecture Technique
+### Architecture technique
 
 ```yaml
 Stack:
-  Time Series DB:
+  Time series DB:
     - InfluxDB ou TimescaleDB
     - Purpose: Métriques temporelles
   
@@ -312,7 +312,7 @@ Algorithms:
   - Anomaly detection (IsolationForest)
 ```
 
-### Exemple de Code (Conceptuel)
+### Exemple de code (Conceptuel)
 
 ```python
 class PatternAgent:
@@ -389,7 +389,7 @@ class PatternAgent:
 
 ---
 
-## 🎲 Simulation Agent (Agent Simulateur)
+## 🎲 Simulation agent (Agent simulateur)
 
 ### Mission
 
@@ -397,7 +397,7 @@ class PatternAgent:
 
 ### Capacités
 
-#### 1. Simulation Multi-Scénarios
+#### 1. Simulation multi-scénarios
 
 **Input** : Décision à prendre
 **Output** : 3-5 scénarios avec probabilités
@@ -455,7 +455,7 @@ Sources :
 - Modèle prédictif entraîné sur 500+ migrations
 ```
 
-#### 2. Modélisation Probabiliste
+#### 2. Modélisation probabiliste
 
 **Méthodes** :
 - Monte Carlo simulations (milliers d'itérations)
@@ -482,7 +482,7 @@ p80 = percentile(durations, 80)  # 80% de chance < 38 jours
 p95 = percentile(durations, 95)  # 95% de chance < 45 jours
 ```
 
-#### 3. Apprentissage Continu
+#### 3. Apprentissage continu
 
 **Comparaison prédiction vs réalité** :
 ```
@@ -509,7 +509,7 @@ Modèle mis à jour pour mieux identifier dépendances
 et être plus conservateur sur bénéfices de refacto.
 ```
 
-### Architecture Technique
+### Architecture technique
 
 ```yaml
 Stack:
@@ -531,7 +531,7 @@ Data Sources:
   - Real-time metrics (état actuel)
 ```
 
-### Exemple de Code (Conceptuel)
+### Exemple de code (Conceptuel)
 
 ```python
 class SimulationAgent:
@@ -593,7 +593,7 @@ class SimulationAgent:
 
 ---
 
-## 🔗 Coordination Agent (Agent Coordinateur)
+## 🔗 Coordination agent (Agent coordinateur)
 
 ### Mission
 
@@ -601,7 +601,7 @@ Optimiser les **flux** de travail et d'information. Identifier les dépendances,
 
 ### Capacités
 
-#### 1. Détection de Blocages
+#### 1. Détection de blocages
 
 **Analyse en temps réel** :
 ```
@@ -623,7 +623,7 @@ Action proposée :
 [ Réassigner automatiquement ]  [ Notifier manuellement ]
 ```
 
-#### 2. Optimisation des Dépendances
+#### 2. Optimisation des dépendances
 
 **Graphe de dépendances** :
 ```
@@ -645,7 +645,7 @@ SUGGESTION D'OPTIMISATION :
 Gain estimé : -3 jours sur timeline total
 ```
 
-#### 3. Suggestions de Recomposition d'Équipe
+#### 3. Suggestions de recomposition d'équipe
 
 **Configuration dynamique** :
 ```
@@ -670,7 +670,7 @@ Bénéfices estimés :
 [ Accepter ]  [ Modifier ]  [ Refuser ]
 ```
 
-#### 4. Optimisation des Meetings
+#### 4. Optimisation des meetings
 
 **Analyse** :
 ```
@@ -691,7 +691,7 @@ Gain : 4h/semaine = +50% temps de focus
 [ Appliquer les 3 suggestions ]  [ Choisir ]  [ Ignorer ]
 ```
 
-### Architecture Technique
+### Architecture technique
 
 ```yaml
 Stack:
@@ -714,7 +714,7 @@ Algorithms:
   - Load balancing algorithms
 ```
 
-### Exemple de Code (Conceptuel)
+### Exemple de code (Conceptuel)
 
 ```python
 class CoordinationAgent:
@@ -804,7 +804,7 @@ class CoordinationAgent:
 
 ---
 
-## 🔄 Interactions Entre Agents
+## 🔄 Interactions entre agents
 
 ### Memory ↔ Pattern
 - **Memory** alimente **Pattern** avec données historiques
@@ -824,14 +824,14 @@ class CoordinationAgent:
 
 ---
 
-## 📏 Métriques Globales des Agents
+## 📏 Métriques globales des agents
 
-### Performance Technique
+### Performance technique
 - **Uptime** : Disponibilité (cible : > 99%)
 - **Latence** : Temps de réponse (cible : < 5s)
 - **Coût API** : €/mois (suivre l'évolution)
 
-### Valeur Créée
+### Valeur créée
 - **Temps économisé** : Heures gagnées grâce aux agents
 - **Qualité des décisions** : Amélioration mesurable
 - **Adoption** : % d'utilisation par les humains
@@ -843,31 +843,31 @@ class CoordinationAgent:
 
 ---
 
-## 🛠️ Développement et Déploiement
+## 🛠️ Développement et déploiement
 
-### Ordre de Développement Recommandé
+### Ordre de développement recommandé
 
-**Phase 1 : Memory Agent** (Semaine 3-4)
+**Phase 1 : Memory agent** (Semaine 3-4)
 - Plus simple à implémenter
 - Fondation pour les autres agents
 - Valeur immédiate (mémoire organisationnelle)
 
-**Phase 2 : Pattern Agent** (Semaine 5-8)
+**Phase 2 : Pattern agent** (Semaine 5-8)
 - S'appuie sur Memory Agent
 - Règles simples d'abord, ML ensuite
 - Valeur rapide (détection de problèmes)
 
-**Phase 3 : Simulation Agent** (Semaine 9-12)
+**Phase 3 : Simulation agent** (Semaine 9-12)
 - Plus complexe (modélisation probabiliste)
 - Nécessite historique suffisant
 - Haute valeur mais plus long à développer
 
-**Phase 4 : Coordination Agent** (Semaine 13-16)
+**Phase 4 : Coordination agent** (Semaine 13-16)
 - Le plus complexe (optimisation)
 - Nécessite tous les autres agents
 - Valeur maximale quand le système est mature
 
-### Stack Technique Minimale
+### Stack technique minimale
 
 ```yaml
 # docker-compose.yml pour démarrage rapide
@@ -928,7 +928,7 @@ volumes:
   influx_data:
 ```
 
-### Coûts Estimés
+### Coûts estimés
 
 **Développement initial (MVP)** :
 - Memory Agent : 2-3 semaines dev
@@ -955,9 +955,9 @@ TOTAL : 370-520€/mois pour une équipe de 10-20 personnes
 
 ---
 
-## 🧪 Tests et Validation
+## 🧪 Tests et validation
 
-### Tests Unitaires (Chaque Agent)
+### Tests unitaires (Chaque Agent)
 
 ```python
 # tests/test_memory_agent.py
@@ -998,7 +998,7 @@ async def test_detect_contradiction():
     assert len(result.conflicting_decisions) > 0
 ```
 
-### Tests d'Intégration
+### Tests d'intégration
 
 ```python
 # tests/test_integration.py
@@ -1021,7 +1021,7 @@ async def test_memory_to_pattern_flow():
     assert "Legal" in patterns[0].description
 ```
 
-### Tests de Performance
+### Tests de performance
 
 ```python
 # tests/test_performance.py
@@ -1045,7 +1045,7 @@ async def test_memory_search_latency():
 
 ---
 
-## 🚨 Gestion des Erreurs
+## 🚨 Gestion des erreurs
 
 ### Principes
 
@@ -1054,7 +1054,7 @@ async def test_memory_search_latency():
 3. **Transparence** : Les erreurs sont loggées et visibles
 4. **Apprentissage** : Chaque erreur améliore le système
 
-### Exemples de Gestion
+### Exemples de gestion
 
 ```python
 class MemoryAgent:
@@ -1084,11 +1084,11 @@ class PatternAgent:
 
 ---
 
-## 📊 Monitoring et Observabilité
+## 📊 Monitoring et observabilité
 
-### Métriques à Suivre
+### Métriques à suivre
 
-**Health Checks** :
+**Health checks** :
 ```yaml
 /health endpoint pour chaque agent:
   - status: "healthy" | "degraded" | "down"
@@ -1097,25 +1097,25 @@ class PatternAgent:
   - dependencies: {neo4j: "up", api: "up"}
 ```
 
-**Business Metrics** :
+**Business metrics** :
 ```yaml
-Memory Agent:
+Memory agent:
   - decisions_captured: counter
   - search_queries: counter
   - average_search_latency: histogram
   - contradictions_detected: counter
 
-Pattern Agent:
+Pattern agent:
   - patterns_detected: counter
   - false_positives: counter
   - actions_taken: counter
 
-Simulation Agent:
+Simulation agent:
   - simulations_run: counter
   - average_simulation_time: histogram
   - recommendation_accuracy: gauge
 
-Coordination Agent:
+Coordination agent:
   - blockers_detected: counter
   - interventions_suggested: counter
   - interventions_accepted: counter
@@ -1140,9 +1140,9 @@ increase(api_tokens_used_total[1h]) * API_COST_PER_TOKEN
 
 ---
 
-## 🔐 Sécurité et Conformité
+## 🔐 Sécurité et conformité
 
-### Protection des Données
+### Protection des données
 
 ```python
 class MemoryAgent:
@@ -1168,7 +1168,7 @@ class MemoryAgent:
         return await self._capture(decision)
 ```
 
-### Audit Trail
+### Audit trail
 
 ```python
 # Chaque action est loggée
@@ -1220,16 +1220,16 @@ class MemoryAgent:
 
 ---
 
-## 🎓 Formation des Équipes
+## 🎓 Formation des équipes
 
-### Comprendre les Agents (1 jour)
+### Comprendre les agents (1 jour)
 
 **Programme** :
 - Matin : Théorie (qu'est-ce qu'un agent ? comment ça marche ?)
 - Après-midi : Démo live (voir les agents en action)
 - Exercice : Poser une question au Memory Agent, interpréter une alerte Pattern
 
-### Utiliser les Agents (2 jours)
+### Utiliser les agents (2 jours)
 
 **Programme** :
 - Formaliser une décision pour Memory Agent
@@ -1237,7 +1237,7 @@ class MemoryAgent:
 - Demander une simulation
 - Évaluer une suggestion de Coordination Agent
 
-### Configurer les Agents (3 jours, System Orchestrator)
+### Configurer les agents (3 jours, System Orchestrator)
 
 **Programme** :
 - Architecture technique
@@ -1247,53 +1247,53 @@ class MemoryAgent:
 
 ---
 
-## 📚 Documentation Développeur
+## 📚 Documentation développeur
 
 Pour contribuer au code des agents, voir :
-- **[Memory Agent README](../tools/memory-agent/README.md)**
-- **[Pattern Agent README](../tools/pattern-agent/README.md)**
-- **[Simulation Agent README](../tools/simulation-agent/README.md)**
-- **[Coordination Agent README](../tools/coordination-agent/README.md)**
+- **[Memory agent README](../tools/memory-agent/README.md)**
+- **[Pattern agent README](../tools/pattern-agent/README.md)**
+- **[Simulation agent README](../tools/simulation-agent/README.md)**
+- **[Coordination agent README](../tools/coordination-agent/README.md)**
 
 ---
 
-## 🔮 Évolutions Futures
+## 🔮 Évolutions futures
 
 ### Agents V2.0 (Roadmap)
 
-**Memory Agent** :
+**Memory agent** :
 - Support multi-modal (images, vidéos, audio)
 - Graphe temporel (évolution dans le temps)
 - Fédération (plusieurs organisations)
 
-**Pattern Agent** :
+**Pattern agent** :
 - AutoML pour découverte automatique
 - Prédictions plus précises (deep learning)
 - Patterns positifs (best practices)
 
-**Simulation Agent** :
+**Simulation agent** :
 - Simulations plus complexes (systèmes dynamiques)
 - Multi-objectifs (optimisation de Pareto)
 - Explications visuelles interactives
 
-**Coordination Agent** :
+**Coordination agent** :
 - Optimisation globale (pas juste locale)
 - Adaptation temps réel (réaction immédiate)
 - Suggestions proactives (anticipation)
 
-### Nouveaux Agents (2026+)
+### Nouveaux agents (2026+)
 
-**Knowledge Agent** :
+**Knowledge agent** :
 - Curation automatique de documentation
 - Réponses aux questions (chatbot expert)
 - Onboarding automatisé
 
-**Innovation Agent** :
+**Innovation agent** :
 - Détection d'opportunités d'innovation
 - Veille technologique automatisée
 - Suggestions de pivots
 
-**Quality Agent** :
+**Quality agent** :
 - Analyse de qualité continue (code, produit)
 - Détection de régressions
 - Suggestions d'amélioration
