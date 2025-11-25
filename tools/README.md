@@ -9,9 +9,9 @@ Code source des agents IA.
 | Agent | Status | Langage |
 |-------|--------|---------|
 | [Memory](memory-agent/) | 🟡 Alpha | Python |
-| [Pattern](pattern-agent/) | 🔴 Q1 2025 | Python |
-| [Simulation](simulation-agent/) | 🔴 Q1 2025 | Python |
-| [Coordination](coordination-agent/) | 🔴 Q2 2025 | Python |
+| [Pattern](pattern-agent/) | 🔴 Q1 2026 | Python |
+| [Simulation](simulation-agent/) | 🔴 Q1 2026 | Python |
+| [Coordination](coordination-agent/) | 🔴 Q2 2026 | Python |
 
 👉 **[Spécifications détaillées](../framework/agents.md)**
 
@@ -132,11 +132,11 @@ docker-compose up -d
 
 ## 🎯 Roadmap
 
-**Q4 2024 :** Memory V0.1  
-**Q1 2025 :** Memory V1.0, Pattern V0.1  
-**Q2 2025 :** Simulation, Coordination V0.1
+**Q4 2025 :** Memory V0.1  
+**Q1 2026 :** Memory V1.0, Pattern V0.1  
+**Q2 2026 :** Simulation, Coordination V0.1
 
 ---
 
 *Outils SYNAPSE*  
-*Dernière mise à jour : Novembre 2024*
+*Dernière mise à jour : Novembre 2025*
