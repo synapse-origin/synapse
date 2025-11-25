@@ -106,6 +106,49 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 
 ---
 
+## 🤝 Communauté
+
+💬 [Discussions GitHub](https://github.com/synapse-origin/synapse/discussions)  
+📧 synapse-origin@proton.me
+
+**Participer** :
+- 🌟 Star le repo
+- 💡 Proposer idées
+- 💻 Contribuer code/docs
+- 🏢 Devenir organisation pilote
+- 🎤 Organiser meetup
+
+👉 [Guide complet communauté](community/README.md)
+
+---
+
+## 📊 Études de Cas
+
+**Organisations pilotes** : 0 (recrutement en cours)
+
+**Vous voulez être pilote ?**
+- Support prioritaire
+- Co-construction du framework
+- Visibilité (si souhaitée)
+
+📧 synapse-origin@proton.me  
+👉 [Programme pilotes](case-studies/README.md)
+
+---
+
+## 🔬 Recherche Académique
+
+**Programme de recherche** : Lancement Q1 2026
+
+**Thèmes** :
+- Efficacité comparée vs méthodologies agiles
+- Impact sur bien-être des équipes
+- Éthique et fairness des décisions hybrides
+- Apprentissage organisationnel
+
+**Chercheurs** : research@synapse-origin.org  
+👉 [Programme complet](research/README.md)
+
 <p align="center">
   <strong>SYNAPSE</strong> - Intelligence Collective Hybride<br>
   <em>Nous ne rendons pas l'ancien monde plus efficace. Nous construisons le suivant.</em>
