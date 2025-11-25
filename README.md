@@ -102,23 +102,6 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 
 ---
 
-## 🤝 Communauté
-
-💬 [Discussions GitHub](https://github.com/synapse-origin/synapse/discussions)  
-📧 synapse-origin@proton.me  
-🌟 [Contribuer](CONTRIBUTING.md) | 🏢 [Devenir pilote](case-studies/README.md)
-
----
-
-## 🌟 Pourquoi Contribuer ?
-
-🔬 **Chercheurs** - Menez expérimentations  
-💻 **Développeurs** - Construisez agents IA  
-🏢 **Organisations** - Testez en pilote  
-✍️ **Penseurs** - Challengez le framework
-
-**Ensemble, construisons l'organisation de demain.**
-
 ---
 
 ## 🤝 Communauté
@@ -134,6 +117,17 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 - 🎤 Organiser meetup
 
 👉 [Guide complet communauté](community/README.md)
+
+---
+
+## 🌟 Pourquoi Contribuer ?
+
+🔬 **Chercheurs** - Menez expérimentations  
+💻 **Développeurs** - Construisez agents IA  
+🏢 **Organisations** - Testez en pilote  
+✍️ **Penseurs** - Challengez le framework
+
+**Ensemble, construisons l'organisation de demain.**
 
 ---
 
