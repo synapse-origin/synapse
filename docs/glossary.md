@@ -244,4 +244,4 @@ Si un terme SYNAPSE n'est pas dans ce glossaire, créez une issue GitHub ou cont
 *Ce glossaire est maintenu par la communauté SYNAPSE.*
 
 **Version** : 1.0  
-**Dernière mise à jour** : Novembre 2024
+**Dernière mise à jour** : Novembre 2025
