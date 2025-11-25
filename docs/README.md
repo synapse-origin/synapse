@@ -114,4 +114,4 @@ Navigation vers toute la documentation.
 ---
 
 *Documentation SYNAPSE*  
-*Dernière mise à jour : Novembre 2024*
+*Dernière mise à jour : Novembre 2025*
