@@ -22,29 +22,28 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 
 ---
 
-## 🚀 Démarrer
+## 📖 Par Où Commencer ?
 
 ### 🎯 Je découvre (15 min)
-1. README (ce fichier) - 2 min
-2. [Manifeste](MANIFESTO.md) - 2 min
-3. [Quick start](framework/quick-start.md) - 5 min
-4. [FAQ](community/faq.md) - 5 min
+1. **Ce README** (vous y êtes !) - 2 min
+2. [Manifeste](MANIFESTO.md) - Vision - 2 min
+3. [FAQ](community/faq.md) - Questions fréquentes - 5 min
 
 ### 💡 Je comprends (1h)
-5. [Framework](framework/SYNAPSE-V0.1.md) - 20 min
-6. [Rôles](framework/roles.md) - 15 min
-7. [Agents](framework/agents.md) - 15 min
-8. [Glossaire](docs/glossary.md) - 10 min
+4. [SYNAPSE V0.1](framework/SYNAPSE-V0.1.md) - Référence complète - 20 min
+5. [Les 4 Rôles](framework/roles.md) - Descriptions détaillées - 15 min
+6. [Les 4 Agents](framework/agents.md) - Spécifications techniques - 15 min
+7. [Glossaire](docs/glossary.md) - Tous les termes - 10 min
 
-### 🚀 J'implémente (3h)
-9. [Getting started](docs/getting-started.md) - Lecture complète
-10. [Templates](templates/) - Tous les templates
-11. Choisir roadmap d'implémentation
+### 🚀 J'implémente (1 journée)
+8. [Guide d'implémentation](docs/getting-started.md) - Pas à pas 16 semaines
+9. [Templates](templates/) - Tous les documents prêts
+10. Choisir roadmap (Memory seul vs système complet)
 
 ### 🔧 Je contribue
-12. [Contribuer](CONTRIBUTING.md)
-13. [Outils](tools/README.md)
-14. [Code de conduite](CODE_OF_CONDUCT.md)
+11. [Contributing](CONTRIBUTING.md) - Comment contribuer
+12. [Tools](tools/README.md) - Code des agents
+13. [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ---
 
