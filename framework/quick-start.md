@@ -93,41 +93,6 @@ Prend une décision majeure éclairée par simulation et mémoire.
 
 ---
 
-## Démarrer SYNAPSE en 4 Semaines
-
-### Semaine 1-2 : Préparation
-- [ ] Assigner les 4 rôles humains
-- [ ] Rédiger l'Intent Statement
-- [ ] Installer la stack technique de base
-- [ ] Connecter les sources de données (Git, Slack)
-
-### Semaine 3-4 : Memory Agent seul
-- [ ] Activer Memory Agent en mode capture
-- [ ] Formaliser 20+ décisions via l'interface
-- [ ] Première revue : "Qu'avons-nous appris ?"
-
-### Semaine 5-8 : + Pattern Agent
-- [ ] Activer Pattern Agent
-- [ ] Définir 3-5 patterns critiques à surveiller
-- [ ] Pattern Review devient un rituel hebdomadaire
-
-### Semaine 9-12 : + Simulation Agent
-- [ ] Activer Simulation Agent
-- [ ] Lancer simulations pour décisions majeures
-- [ ] Comparer prédictions vs résultats réels
-
----
-
-## Critères de Succès à 3 Mois
-
-- [ ] Les 4 rôles sont opérationnels et satisfaits
-- [ ] Au moins 2 agents produisent de la valeur tangible
-- [ ] 1+ décision majeure améliorée par simulation
-- [ ] Aucune dérive éthique détectée
-- [ ] L'équipe veut continuer
-
----
-
 ## Prochaines Étapes
 
 1. **Lire le Framework complet** : [SYNAPSE-V0.1.md](SYNAPSE-V0.1.md)
