@@ -33,6 +33,30 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 - [Guide contribution](CONTRIBUTING.md)
 - [Discussions](https://github.com/synapse-origin/synapse/discussions)
 
+## 📖 Parcours de Lecture Recommandé
+
+### 🎯 Je découvre (15 min)
+1. README (ce fichier) - 2 min
+2. [Manifeste](MANIFESTO.md) - 2 min
+3. [Quick start](framework/quick-start.md) - 5 min
+4. [FAQ](community/faq.md) - 5 min
+
+### 💡 Je comprends (1h)
+5. [Framework](framework/SYNAPSE-V0.1.md) - 20 min
+6. [Rôles](framework/roles.md) - 15 min
+7. [Agents](framework/agents.md) - 15 min
+8. [Glossaire](docs/glossary.md) - 10 min
+
+### 🚀 J'implémente (3h)
+9. [Getting started](docs/getting-started.md) - Lecture complète
+10. [Templates](templates/) - Tous les templates
+11. Choisir roadmap d'implémentation
+
+### 🔧 Je contribue
+12. [Contribuer](CONTRIBUTING.md)
+13. [Outils](tools/README.md)
+14. [Code de conduite](CODE_OF_CONDUCT.md)
+
 ---
 
 ## 📚 Documentation
