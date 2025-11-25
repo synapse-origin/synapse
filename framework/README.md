@@ -84,4 +84,4 @@ EXÉCUTION (Humains + IA)
 ---
 
 *Navigation Framework SYNAPSE*  
-*Dernière mise à jour : Novembre 2024*
+*Dernière mise à jour : Novembre 2025*
