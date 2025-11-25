@@ -244,5 +244,5 @@ SYNAPSE est une architecture expérimentale pour organisations qui acceptent la 
 
 ---
 
-*Document vivant - Dernière mise à jour : Novembre 2024*  
+*Document vivant - Dernière mise à jour : Novembre 2025*  
 *Contribuez sur : [GitHub](https://github.com/synapse-origin/synapse)*
