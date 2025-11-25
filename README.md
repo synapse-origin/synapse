@@ -34,48 +34,23 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 4. [SYNAPSE V0.1](framework/SYNAPSE-V0.1.md) - Référence complète - 20 min
 5. [Les 4 Rôles](framework/roles.md) - Descriptions détaillées - 15 min
 6. [Les 4 Agents](framework/agents.md) - Spécifications techniques - 15 min
-7. [Glossaire](docs/glossary.md) - Tous les termes - 10 min
+7. [3 Boucles](framework/loops.md) - Organisation - 15 min
+8. [11 Métriques](framework/metrics.md) - Mesurer la santé
+9. [Éthique](framework/ethics.md) - Principes non-négociables
+10. [Glossaire](docs/glossary.md) - Tous les termes - 10 min
 
 ### 🚀 J'implémente (1 journée)
 8. [Guide d'implémentation](docs/getting-started.md) - Pas à pas 16 semaines
 9. [Templates](templates/) - Tous les documents prêts
-10. Choisir roadmap (Memory seul vs système complet)
+11. [Roadmap](docs/roadmap.md)
+12. Choisir roadmap (Memory seul vs système complet)
 
 ### 🔧 Je contribue
 11. [Contributing](CONTRIBUTING.md) - Comment contribuer
 12. [Tools](tools/README.md) - Code des agents
-13. [Code of Conduct](CODE_OF_CONDUCT.md)
-
----
-
-## 📚 Documentation
-
-**Framework :**
-- [SYNAPSE V0.1](framework/SYNAPSE-V0.1.md) - Référence complète
-- [4 Rôles](framework/roles.md) - Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker
-- [4 Agents](framework/agents.md) - Memory, Pattern, Simulation, Coordination
-- [3 Boucles](framework/loops.md) - Intent Sync, Pattern Review, Decision Moment
-- [11 Métriques](framework/metrics.md) - Mesurer la santé
-- [Éthique](framework/ethics.md) - Principes non-négociables
-
-**Guides :**
-- [Implémentation](docs/getting-started.md) | [FAQ](community/faq.md) | [Glossaire](docs/glossary.md) | [Roadmap](docs/roadmap.md)
-
-**Ressources :**
-- [Templates](templates/) | [Code Agents](tools/) | [Études de cas](case-studies/) | [Recherche](research/)
-
----
-
-## 🧪 Statut : V0.1 Alpha
-
-**Organisations pilotes :** 0 (on recrute !)
-
-**Prochaines étapes :**
-- Memory Agent (prototype)
-- Première organisation pilote
-- Framework V1.0
-
-👉 [Roadmap complète](docs/roadmap.md)
+13. [Études de cas](case-studies/) - Mise en pratique
+14. [Recherche](research/) - Les études
+15. [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ---
 
