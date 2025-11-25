@@ -10,6 +10,21 @@
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/synapse-origin/synapse?style=social)](https://github.com/synapse-origin/synapse/stargazers)
 
+## 📊 Status du Projet
+
+| Composant | Statut | Avancement | Lancement |
+|-----------|--------|-----------|-----------|
+| 📚 **Documentation** | ✅ V0.1 | 95% | ✅ Nov 2025 |
+| 🧠 **Memory Agent** | 🟡 Alpha | 30% | 🚧 Q4 2025 |
+| 🔍 **Pattern Agent** | 🔴 Planifié | 0% | 📅 Q1 2026 |
+| 🎲 **Simulation Agent** | 🔴 Planifié | 0% | 📅 Q1 2026 |
+| 🔗 **Coordination Agent** | 🔴 Planifié | 0% | 📅 Q2 2026 |
+| 🏢 **Organisations Pilotes** | 🔴 Recrutement | 0/5 | 📅 Q4 2025 |
+| 👥 **Contributeurs** | 🟡 Croissance | ~5 | 🎯 20 (Q1 2026) |
+
+**Légende** :  
+✅ Complété | 🟡 En cours | 🔴 Prévu | 🚧 Dev actif | 📅 Planifié
+
 ---
 
 ## 🎯 En 30 Secondes
