@@ -3,11 +3,12 @@
 > **L'organisation du XXIᵉ siècle repose sur l'intelligence collective hybride**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Docs](https://img.shields.io/badge/docs-complete-green)]()
-[![Framework](https://img.shields.io/badge/framework-v0.1-blue)]()
-[![Agents](https://img.shields.io/badge/agents-1%2F4-yellow)]()
-[![Status](https://img.shields.io/badge/status-alpha-orange)]()
+[![Version](https://img.shields.io/badge/version-0.1.0--alpha-orange.svg)]()
+[![Docs](https://img.shields.io/badge/docs-95%25-green.svg)](framework/)
+[![Memory Agent](https://img.shields.io/badge/Memory%20Agent-30%25-yellow.svg)](tools/memory-agent/)
+[![Pattern Agent](https://img.shields.io/badge/Pattern%20Agent-planned-red.svg)](tools/pattern-agent/)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Stars](https://img.shields.io/github/stars/synapse-origin/synapse?style=social)](https://github.com/synapse-origin/synapse/stargazers)
 
 ---
 
