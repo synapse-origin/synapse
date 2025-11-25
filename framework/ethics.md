@@ -432,5 +432,5 @@ La communauté SYNAPSE s'engage à :
 *Cette charte est un document vivant. Elle évoluera avec les apprentissages de la communauté et les évolutions technologiques.*
 
 **Version** : 1.0  
-**Date** : Novembre 2024  
-**Prochaine révision** : Mai 2025
+**Date** : Novembre 2025  
+**Prochaine révision** : Mai 2026
