@@ -5,23 +5,22 @@ Cette roadmap évolue avec les contributions de la communauté.
 ---
 
 ## 📍 Statut Actuel : Alpha (V0.1)
-
 **Date** : Novembre 2025  
-**Organisations pilotes** : 0  
+**Organisations pilotes** : 0 (recrutement en cours)  
 **Contributeurs** : En cours de recrutement  
 
 ---
 
-## 🎯 Q4 2025 : Fondations
+## 🎯 Q4 2025 : Fondations (EN COURS)
 
-### Novembre
-- [x] Publication du Manifeste
-- [x] Documentation Framework V0.1
-- [x] Structure GitHub complète
-- [ ] Lancement public (réseaux sociaux, Medium)
-- [ ] Premiers contributeurs recrutés (5+)
+### Novembre 2025
+- [x] Publication du Manifeste ✅
+- [x] Documentation Framework V0.1 ✅
+- [x] Structure GitHub complète ✅
+- [ ] Lancement public (réseaux sociaux, Medium) 🚧
+- [ ] Premiers contributeurs recrutés (5+) 🚧
 
-### Décembre
+### Décembre 2025
 - [ ] Memory Agent (prototype Python/TypeScript)
 - [ ] Templates prêts à l'emploi
 - [ ] Première organisation pilote identifiée
