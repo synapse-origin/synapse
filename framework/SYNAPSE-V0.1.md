@@ -53,12 +53,21 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 ## 👥 LES 4 RÔLES HUMAINS
 
-| Rôle | Focus | Pouvoir Principal |
-|------|-------|-------------------|
-| **Intent Architect** | Stratégie & sens | Veto si contraire à l'intention |
-| **Ethical Guardian** | Éthique & intégrité | Veto si dérive éthique |
-| **System Orchestrator** | Configuration système | Active/désactive agents |
-| **Sovereign Maker** | Matérialisation | Décide faisabilité |
+### Intent Architect 🎯
+Définit et maintient l'intention stratégique : objectifs, contraintes, limites éthiques.
+**Pouvoir** : Veto si contraire à l'intention.
+
+### Ethical Guardian ⚖️
+Surveille les dérives éthiques, audite les décisions IA, protège les droits des personnes.
+**Pouvoir** : Veto si dérive éthique.
+
+### System Orchestrator 🎛️
+Configure et optimise le système cognitif : active/désactive agents, définit règles, maintient infrastructure.
+**Pouvoir** : Configuration du système.
+
+### Sovereign Maker 🛠️
+Matérialise les décisions dans le réel : code, produit, service.
+**Pouvoir** : Accepte/refuse selon faisabilité.
 
 👉 **[Descriptions complètes avec responsabilités, pouvoirs, exemples et antipatterns](roles.md)**
 
@@ -66,12 +75,29 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 ## 🤖 LES 4 AGENTS IA
 
-| Agent | Fonction | Déclenchement |
-|-------|----------|---------------|
-| **Memory Agent** | Mémoire organisationnelle | Continu |
-| **Pattern Agent** | Détection récurrences | Continu + alertes |
-| **Simulation Agent** | Anticipation décisions | À la demande |
-| **Coordination Agent** | Optimisation flux | Continu + proactif |
+### Memory Agent 🧠
+Capture, structure et restitue la mémoire organisationnelle.
+**Input** : Décisions, communications, code.
+**Output** : Graphe de connaissances + contexte pertinent.
+**Déclenchement** : Continu (passif).
+
+### Pattern Agent 🔍
+Détecte les récurrences (blocages, inefficacités, opportunités).
+**Input** : Historique, métriques, comportements.
+**Output** : Alertes + patterns quantifiés.
+**Déclenchement** : Continu (actif) + alertes.
+
+### Simulation Agent 🎲
+Anticipe les conséquences de décisions avant de les prendre.
+**Input** : Décision à prendre + contexte.
+**Output** : 3-5 scénarios avec probabilités.
+**Déclenchement** : À la demande.
+
+### Coordination Agent 🔗
+Optimise les flux de travail et d'information.
+**Input** : Dépendances, disponibilités, blocages.
+**Output** : Suggestions d'intervention + reconfigurations.
+**Déclenchement** : Continu + proactif.
 
 👉 **[Spécifications techniques complètes](agents.md)**  
 👉 **[Implémentations code](../tools/README.md)**
@@ -80,11 +106,20 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 ## 🔄 LES 3 BOUCLES
 
-| Boucle | Objectif | Fréquence | Participants |
-|--------|----------|-----------|--------------|
-| **Intent Sync** | Alignement stratégique | Hebdomadaire | Tous les rôles |
-| **Pattern Review** | Traiter récurrences | Continue + hebdo | Concernés + Orchestrator |
-| **Decision Moment** | Décisions éclairées | À la demande | Décideurs + Agents |
+### Intent Sync 🎯 (Hebdomadaire, 30-45 min)
+Vérifie l'alignement stratégique de l'organisation sur l'intention.
+**Participants** : Tous les rôles.
+**Output** : Intention validée ou ajustée + actions correctives.
+
+### Pattern Review 🔍 (Continue + Hebdo, 15-30 min par pattern)
+Examine les patterns détectés et décide des actions correctives.
+**Participants** : Concernés par le pattern + System Orchestrator.
+**Output** : Ignorer / Corriger / Expérimenter + plan d'action.
+
+### Decision Moment ⚡ (À la demande, 30 min - 2h)
+Prend une décision majeure éclairée par simulation et mémoire.
+**Participants** : Décideurs + Simulation Agent.
+**Output** : Décision formalisée + plan d'action + métriques suivi.
 
 👉 **[Déroulements détaillés avec exemples concrets](loops.md)**
 
