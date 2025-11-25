@@ -16,62 +16,68 @@ SYNAPSE transforme votre organisation en **système hybride** où humains et IA 
 
 ## Les 4 Rôles Humains
 
-### 🎯 Intent Architect
-**Ce qu'il fait** : Définit le "pourquoi", les objectifs stratégiques  
-**Pouvoir** : Veto sur toute décision contraire à l'intention
+### Intent Architect 🎯
+Définit et maintient l'intention stratégique : objectifs, contraintes, limites éthiques.
+**Pouvoir** : Veto si contraire à l'intention.
 
-### ⚖️ Ethical Guardian
-**Ce qu'il fait** : Surveille les dérives éthiques, audite les décisions IA  
-**Pouvoir** : Veto sur toute décision éthiquement problématique
+### Ethical Guardian ⚖️
+Surveille les dérives éthiques, audite les décisions IA, protège les droits des personnes.
+**Pouvoir** : Veto si dérive éthique.
 
-### 🎛️ System Orchestrator
-**Ce qu'il fait** : Configure les agents IA, optimise le système  
-**Pouvoir** : Active/désactive les agents, modifie les règles
+### System Orchestrator 🎛️
+Configure et optimise le système cognitif : active/désactive agents, définit règles, maintient infrastructure.
+**Pouvoir** : Configuration du système.
 
-### 🛠️ Sovereign Maker
-**Ce qu'il fait** : Matérialise dans le réel (code, produit, service)  
-**Pouvoir** : Décide des compromis qualité/vitesse
+### Sovereign Maker 🛠️
+Matérialise les décisions dans le réel : code, produit, service.
+**Pouvoir** : Accepte/refuse selon faisabilité.
 
 ---
 
 ## Les 4 Agents IA
 
-### 🧠 Memory Agent
-Capture toutes les décisions, leur contexte et résultats. Construit un graphe de connaissances vivant.
+### Memory Agent 🧠
+Capture, structure et restitue la mémoire organisationnelle.
+**Input** : Décisions, communications, code.
+**Output** : Graphe de connaissances + contexte pertinent.
+**Déclenchement** : Continu (passif).
 
-### 🔍 Pattern Agent
-Détecte les récurrences (blocages, inefficacités, opportunités) en analysant communications, code, métriques.
+### Pattern Agent 🔍
+Détecte les récurrences (blocages, inefficacités, opportunités).
+**Input** : Historique, métriques, comportements.
+**Output** : Alertes + patterns quantifiés.
+**Déclenchement** : Continu (actif) + alertes.
 
-### 🎲 Simulation Agent
-Simule les conséquences de décisions avant de les prendre. Présente plusieurs scénarios avec probabilités.
+### Simulation Agent 🎲
+Anticipe les conséquences de décisions avant de les prendre.
+**Input** : Décision à prendre + contexte.
+**Output** : 3-5 scénarios avec probabilités.
+**Déclenchement** : À la demande.
 
-### 🔗 Coordination Agent
-Optimise qui doit parler à qui, quand. Détecte les dépendances bloquantes et suggère des reconfigurations.
+### Coordination Agent 🔗
+Optimise les flux de travail et d'information.
+**Input** : Dépendances, disponibilités, blocages.
+**Output** : Suggestions d'intervention + reconfigurations.
+**Déclenchement** : Continu + proactif.
 
 ---
 
 ## Les 3 Boucles (Remplacent les Rituels Agile)
 
-### 🔄 Intent Sync (Hebdomadaire)
-Vérifie que l'organisation reste alignée sur l'intention stratégique.
+### Intent Sync 🎯 (Hebdomadaire, 30-45 min)
+Vérifie l'alignement stratégique de l'organisation sur l'intention.
+**Participants** : Tous les rôles.
+**Output** : Intention validée ou ajustée + actions correctives.
 
-**Participants** : Tous les rôles  
-**Durée** : 30-45 min  
-**Output** : Intention validée ou ajustée
+### Pattern Review 🔍 (Continue + Hebdo, 15-30 min par pattern)
+Examine les patterns détectés et décide des actions correctives.
+**Participants** : Concernés par le pattern + System Orchestrator.
+**Output** : Ignorer / Corriger / Expérimenter + plan d'action.
 
-### 🔄 Pattern Review (Continue)
-Examine les patterns détectés par l'IA et décide des actions.
-
-**Participants** : Concernés par le pattern  
-**Durée** : 15 min par pattern  
-**Output** : Actions correctives ou expérimentations
-
-### 🔄 Decision Moment (À la demande)
-Prend une décision importante éclairée par simulation.
-
-**Participants** : Rôles concernés + Simulation Agent  
-**Durée** : 30 min - 2h  
-**Output** : Décision formalisée + plan d'action
+### Decision Moment ⚡ (À la demande, 30 min - 2h)
+Prend une décision majeure éclairée par simulation et mémoire.
+**Participants** : Décideurs + Simulation Agent.
+**Output** : Décision formalisée + plan d'action + métriques suivi.
 
 ---
 
