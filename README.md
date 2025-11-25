@@ -21,20 +21,6 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 
 ## 🚀 Démarrer
 
-**Comprendre (5 min) :**
-- [Manifeste](MANIFESTO.md) - Vision
-- [Quick Start](framework/quick-start.md) - Vue d'ensemble
-
-**Implémenter (4 semaines) :**
-- [Guide complet](docs/getting-started.md) - Pas à pas
-- [Templates](templates/) - Prêts à l'emploi
-
-**Contribuer :**
-- [Guide contribution](CONTRIBUTING.md)
-- [Discussions](https://github.com/synapse-origin/synapse/discussions)
-
-## 📖 Parcours de Lecture Recommandé
-
 ### 🎯 Je découvre (15 min)
 1. README (ce fichier) - 2 min
 2. [Manifeste](MANIFESTO.md) - 2 min
