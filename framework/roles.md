@@ -430,4 +430,4 @@ Sovereign Maker:
 ---
 
 *Source de vérité maintenue par la communauté SYNAPSE*  
-*Dernière mise à jour : Novembre 2024*
+*Dernière mise à jour : Novembre 2025*
