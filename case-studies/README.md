@@ -290,17 +290,17 @@ Pour inspiration :
 
 ## 🎯 Prochaines Étapes
 
-### Q4 2024
+### Q4 2025
 - [x] Template d'étude de cas créé
 - [ ] Première organisation pilote recrutée
 - [ ] Première étude de cas (draft)
 
-### Q1 2025
+### Q1 2026
 - [ ] 3 études de cas publiées
 - [ ] Webinar "Retours d'expérience"
 - [ ] Programme Early Adopters lancé
 
-### Q2 2025
+### Q2 2026
 - [ ] 10 études de cas
 - [ ] Première publication académique
 - [ ] Analyse transversale des résultats
@@ -315,4 +315,4 @@ Pour inspiration :
 
 *Case Studies maintenues par la communauté SYNAPSE.*
 
-**Last updated** : Novembre 2024
+**Last updated** : Novembre 2025
