@@ -69,12 +69,12 @@ git push origin feature/ma-contribution
 
 ## 🎯 Priorités
 
-**Q4 2024 :**
+**Q4 2025 :**
 - Memory Agent (Python)
 - Première organisation pilote
 - Traductions (EN, ES)
 
-**Q1 2025 :**
+**Q1 2026 :**
 - Pattern Agent
 - Dashboard monitoring
 - 5+ études de cas
