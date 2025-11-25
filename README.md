@@ -4,7 +4,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Status: Alpha](https://img.shields.io/badge/status-alpha-orange.svg)]()
+[![Docs](https://img.shields.io/badge/docs-complete-green)]()
+[![Framework](https://img.shields.io/badge/framework-v0.1-blue)]()
+[![Agents](https://img.shields.io/badge/agents-1%2F4-yellow)]()
+[![Status](https://img.shields.io/badge/status-alpha-orange)]()
 
 ---
 
