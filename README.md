@@ -23,26 +23,26 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 
 ---
 
-## 🌊 SYNAPSE = Flux Continu, Pas Cycles Fixes
+## 🌊 SYNAPSE = Flux continu, pas de cycles fixes
 
 **La grande différence avec l'agilité classique :**
 ```
-╔══════════════════════════════════════════════════════════╗
-║  SCRUM (Cycles Fixes)           SYNAPSE (Flux Continu)  ║
-╠══════════════════════════════════════════════════════════╣
-║                                                           ║
-║  Sprint 1 → Sprint 2 → Sprint 3   ▰▰▰▰▰ Flow ▰▰▰▰▰▰▰▰   ║
-║     ↓         ↓         ↓                ↑  ↑  ↑   ↑     ║
-║  Planning  Retro    Planning      Alertes en temps réel ║
-║  (2h fixe) (1h)     (2h)          (déclenchées par IA)  ║
-║                                                           ║
-║  Daily Standup tous les jours     Coordination Agent    ║
-║  (même si rien à dire)            (alerte si blocage)   ║
-║                                                           ║
-║  Retro toutes les 2 semaines      Pattern Agent         ║
-║  (même si aucun problème)         (détection continue)  ║
-║                                                           ║
-╚══════════════════════════════════════════════════════════╝
+╔═════════════════════════════════════════════════════════════════════╗
+║  SCRUM (Cycles Fixes)           SYNAPSE (Flux Continu)              ║
+╠═════════════════════════════════════════════════════════════════════╣
+║                                                                     ║
+║  Sprint 1 → Sprint 2 → Sprint 3   ▰▰▰▰▰ Flow ▰▰▰▰▰▰▰▰    ║
+║     ↓         ↓         ↓                ↑  ↑  ↑   ↑                ║
+║  Planning  Retro    Planning      Alertes en temps réel             ║
+║  (2h fixe) (1h)     (2h)          (déclenchées par IA)              ║
+║                                                                     ║
+║  Daily Standup tous les jours     Coordination Agent                ║
+║  (même si rien à dire)            (alerte si blocage)               ║
+║                                                                     ║
+║  Retro toutes les 2 semaines      Pattern Agent                     ║
+║  (même si aucun problème)         (détection continue)              ║
+║                                                                     ║
+╚═════════════════════════════════════════════════════════════════════╝
 
 GAINS SYNAPSE :
 ✅ -47% temps en réunions (9.5% vs 18%)
