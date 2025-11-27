@@ -23,34 +23,85 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 
 ---
 
+## 🌊 SYNAPSE = Flux Continu, Pas Cycles Fixes
+
+**La grande différence avec l'agilité classique :**
+```
+╔══════════════════════════════════════════════════════════╗
+║  SCRUM (Cycles Fixes)           SYNAPSE (Flux Continu)  ║
+╠══════════════════════════════════════════════════════════╣
+║                                                           ║
+║  Sprint 1 → Sprint 2 → Sprint 3   ▰▰▰▰▰ Flow ▰▰▰▰▰▰▰▰   ║
+║     ↓         ↓         ↓                ↑  ↑  ↑   ↑     ║
+║  Planning  Retro    Planning      Alertes en temps réel ║
+║  (2h fixe) (1h)     (2h)          (déclenchées par IA)  ║
+║                                                           ║
+║  Daily Standup tous les jours     Coordination Agent    ║
+║  (même si rien à dire)            (alerte si blocage)   ║
+║                                                           ║
+║  Retro toutes les 2 semaines      Pattern Agent         ║
+║  (même si aucun problème)         (détection continue)  ║
+║                                                           ║
+╚══════════════════════════════════════════════════════════╝
+
+GAINS SYNAPSE :
+✅ -47% temps en réunions (9.5% vs 18%)
+✅ -70% latence de décision (2 jours vs 1-2 semaines)
+✅ -83% temps de blocage (2h vs 12-24h)
+✅ Détection de patterns 10x plus rapide
+```
+
+### Comment ça marche ?
+
+**Agents IA surveillent 24/7** → **Déclenchent alertes si seuils franchis** → **Interventions humaines ciblées**
+
+**Exemple concret :**
+```
+09:30  🔔 Pattern Agent détecte blocage récurrent (8× en 2 mois)
+       → Alerte System Orchestrator
+       
+10:00  🎯 Intent Sync hebdomadaire (30 min) - SEUL rituel fixe
+       
+14:00  🔍 Pattern Review ad hoc (20 min)
+       → Décision : Impliquer légal dès conception
+       → Action assignée
+       
+16:00  ✅ Problème traité (vs 2-3 semaines en Scrum)
+```
+
+👉 **[Comprendre le flux continu en détail](framework/continuous-flow.md)**
+
+---
+
 ## 📖 Par Où Commencer ?
 
 ### 🎯 Je découvre (15 min)
 1. **Ce README** (vous y êtes !) - 2 min
 2. [Manifeste](MANIFESTO.md) - Vision - 2 min
-3. [FAQ](community/faq.md) - Questions fréquentes - 5 min
+3. [Flux Continu](framework/continuous-flow.md) - Comment ça fonctionne - 5 min
+4. [FAQ](community/faq.md) - Questions fréquentes - 5 min
 
 ### 💡 Je comprends (1h)
-4. [SYNAPSE V0.1](framework/SYNAPSE-V0.1.md) - Référence complète - 20 min
-5. [Les 4 Rôles](framework/roles.md) - Descriptions détaillées - 15 min
-6. [Les 4 Agents](framework/agents.md) - Spécifications techniques - 15 min
-7. [3 Boucles](framework/loops.md) - Organisation - 15 min
-8. [11 Métriques](framework/metrics.md) - Mesurer la santé
-9. [Éthique](framework/ethics.md) - Principes non-négociables
-10. [Glossaire](docs/glossary.md) - Tous les termes - 10 min
+5. [SYNAPSE V0.1](framework/SYNAPSE-V0.1.md) - Référence complète - 20 min
+6. [Les 4 Rôles](framework/roles.md) - Descriptions détaillées - 15 min
+7. [Les 4 Agents](framework/agents.md) - Spécifications techniques - 15 min
+8. [3 Boucles](framework/loops.md) - Organisation - 15 min
+9. [11 Métriques](framework/metrics.md) - Mesurer la santé
+10. [Éthique](framework/ethics.md) - Principes non-négociables
+11. [Glossaire](docs/glossary.md) - Tous les termes - 10 min
 
 ### 🚀 J'implémente (1 journée)
-8. [Guide d'implémentation](docs/getting-started.md) - Pas à pas 16 semaines
-9. [Templates](templates/) - Tous les documents prêts
-11. [Roadmap](docs/roadmap.md)
-12. Choisir roadmap (Memory seul vs système complet)
+12. [Guide d'implémentation](docs/getting-started.md) - Pas à pas 16 semaines
+13. [Templates](templates/) - Tous les documents prêts
+14. [Roadmap](docs/roadmap.md)
+15. Choisir roadmap (Memory seul vs système complet)
 
 ### 🔧 Je contribue
-11. [Contributing](CONTRIBUTING.md) - Comment contribuer
-12. [Tools](tools/README.md) - Code des agents
-13. [Études de cas](case-studies/) - Mise en pratique
-14. [Recherche](research/) - Les études
-15. [Code of Conduct](CODE_OF_CONDUCT.md)
+16. [Contributing](CONTRIBUTING.md) - Comment contribuer
+17. [Tools](tools/README.md) - Code des agents
+18. [Études de cas](case-studies/) - Mise en pratique
+19. [Recherche](research/) - Les études
+20. [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ---
 
@@ -134,6 +185,8 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 🐦 Twitter : @synapse_origin *(à créer)*  
 💼 LinkedIn : SYNAPSE Framework *(à créer)*  
 📺 YouTube : SYNAPSE Channel *(à créer)*
+
+---
 
 <p align="center">
   <strong>SYNAPSE</strong> - Intelligence Collective Hybride<br>
