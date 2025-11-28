@@ -105,11 +105,15 @@ GAINS SYNAPSE :
 
 ---
 
-## 💰 100% Open Source
+## 📦 Modèle Open Core
 
-**MIT License** - Gratuit, modifiable, utilisable commercialement.
+| Composant | Licence | Accès |
+|-----------|---------|-------|
+| **Framework & Documentation** | CC BY-SA 4.0 | Ce repository |
+| **Templates & Guides** | CC BY-SA 4.0 | Ce repository |
+| **Agents IA** | Propriétaire | [SYNAPSE Cloud](#-synapse-cloud) |
 
-**SYNAPSE Cloud** (optionnel) : Agents hébergés à partir de $99/mois → [Détails](docs/business-model.md)
+**Le framework est entièrement documenté et utilisable.** Les agents IA sont disponibles via SYNAPSE Cloud ou licence Enterprise.
 
 ---
 
