@@ -31,7 +31,7 @@ SYNAPSE est un framework où **humains et IA collaborent** pour créer des organ
 ║  SCRUM (Cycles Fixes)           SYNAPSE (Flux Continu)              ║
 ╠═════════════════════════════════════════════════════════════════════╣
 ║                                                                     ║
-║  Sprint 1 → Sprint 2 → Sprint 3   ▰▰▰▰▰ Flow ▰▰▰▰▰▰▰▰    ║
+║  Sprint 1 → Sprint 2 → Sprint 3   ▰▰▰▰▰ Flow ▰▰▰▰▰▰▰▰           ║
 ║     ↓         ↓         ↓                ↑  ↑  ↑   ↑                ║
 ║  Planning  Retro    Planning      Alertes en temps réel             ║
 ║  (2h fixe) (1h)     (2h)          (déclenchées par IA)              ║
